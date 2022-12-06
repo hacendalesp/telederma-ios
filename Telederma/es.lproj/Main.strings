@@ -1,0 +1,837 @@
+
+/* Class = "UIButton"; normalTitle = "Aumento de número"; ObjectID = "0Kd-BS-ldn"; */
+"0Kd-BS-ldn.normalTitle" = "Aumento de número";
+
+/* Class = "UIButton"; normalTitle = "Prurito"; ObjectID = "0XP-OR-Niw"; */
+"0XP-OR-Niw.normalTitle" = "Prurito";
+
+/* Class = "UILabel"; text = "Datos de contacto"; ObjectID = "0p9-0L-FcD"; */
+"0p9-0L-FcD.text" = "Datos de contacto";
+
+/* Class = "UIButton"; normalTitle = "Ver Tickets"; ObjectID = "11Y-TO-GkZ"; */
+"11Y-TO-GkZ.normalTitle" = "Ver Tickets";
+
+/* Class = "UIButton"; normalTitle = "Archivadas"; ObjectID = "1KL-I8-aMY"; */
+"1KL-I8-aMY.normalTitle" = "Archivadas";
+
+/* Class = "UILabel"; text = "* Tipo de profesional"; ObjectID = "1Vm-NP-xeV"; */
+"1Vm-NP-xeV.text" = "* Tipo de profesional";
+
+/* Class = "UIButton"; normalTitle = "Ninguno"; ObjectID = "1Zc-L7-nK8"; */
+"1Zc-L7-nK8.normalTitle" = "Ninguno";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "1lc-SS-4Lf"; */
+"1lc-SS-4Lf.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "Ingrese el asunto del ticket"; ObjectID = "1tu-Rm-eMh"; */
+"1tu-Rm-eMh.placeholder" = "Ingrese el asunto del ticket";
+
+/* Class = "UITextView"; text = "Ingrese la descripción del ticket"; ObjectID = "20E-B2-c6t"; */
+"20E-B2-c6t.text" = "Ingrese la descripción del ticket";
+
+/* Class = "UILabel"; text = "------"; ObjectID = "28h-KY-QrX"; */
+"28h-KY-QrX.text" = "------";
+
+/* Class = "UIButton"; normalTitle = "Nuevo Paciente"; ObjectID = "2Tm-PP-opc"; */
+"2Tm-PP-opc.normalTitle" = "Nuevo Paciente";
+
+/* Class = "UILabel"; text = "Paso 3"; ObjectID = "2Vz-Zd-rD0"; */
+"2Vz-Zd-rD0.text" = "Paso 3";
+
+/* Class = "UILabel"; text = "Celular"; ObjectID = "2sW-wM-HcQ"; */
+"2sW-wM-HcQ.text" = "Celular";
+
+/* Class = "UILabel"; text = "Sangran"; ObjectID = "3Oe-Qj-LVw"; */
+"3Oe-Qj-LVw.text" = "Sangran";
+
+/* Class = "UITextField"; placeholder = "Tratamiento recibido"; ObjectID = "3Yf-wx-yIe"; */
+"3Yf-wx-yIe.placeholder" = "Tratamiento recibido";
+
+/* Class = "UITextView"; text = "Describa signos vitales, tipo de lesión, distribución y localización de forma escrita o nota de voz.\nEl límite de grabación de audio es de 2 minutos."; ObjectID = "3vD-Fq-fRg"; */
+"3vD-Fq-fRg.text" = "Describa signos vitales, tipo de lesión, distribución y localización de forma escrita o nota de voz.\nEl límite de grabación de audio es de 2 minutos.";
+
+/* Class = "UILabel"; text = "Antecedentes"; ObjectID = "4Ds-ml-JH1"; */
+"4Ds-ml-JH1.text" = "Antecedentes";
+
+/* Class = "UIButton"; normalTitle = "Tomar foto"; ObjectID = "4Oy-nk-p16"; */
+"4Oy-nk-p16.normalTitle" = "Tomar foto";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "4W3-bw-9sF"; */
+"4W3-bw-9sF.normalTitle" = "Seleccionar";
+
+/* Class = "UILabel"; text = "*Síntomas"; ObjectID = "4p6-GV-2BO"; */
+"4p6-GV-2BO.text" = "*Síntomas";
+
+/* Class = "UITextField"; placeholder = "Ingrese los factores agravantes"; ObjectID = "4sC-el-rcg"; */
+"4sC-el-rcg.placeholder" = "Ingrese los factores agravantes";
+
+/* Class = "UITextField"; placeholder = "Número de tarjeta profesional"; ObjectID = "55X-Y3-tHw"; */
+"55X-Y3-tHw.placeholder" = "Número de tarjeta profesional";
+
+/* Class = "UITextField"; placeholder = "Ingrese el primer nombre"; ObjectID = "5YH-mk-dbk"; */
+"5YH-mk-dbk.placeholder" = "Ingrese el primer nombre";
+
+/* Class = "UILabel"; text = "* Contraseña"; ObjectID = "6H6-Mg-9zt"; */
+"6H6-Mg-9zt.text" = "* Contraseña";
+
+/* Class = "UILabel"; text = "* Nombre(s)"; ObjectID = "6ZA-cw-DoB"; */
+"6ZA-cw-DoB.text" = "* Nombre(s)";
+
+/* Class = "UILabel"; text = "* Unidad de medida"; ObjectID = "6dy-ab-ZEW"; */
+"6dy-ab-ZEW.text" = "* Unidad de medida";
+
+/* Class = "UILabel"; text = "* Número de lesiones iniciales"; ObjectID = "6gl-DE-ZwI"; */
+"6gl-DE-ZwI.text" = "* Número de lesiones iniciales";
+
+/* Class = "UINavigationItem"; title = "Manejo de la App"; ObjectID = "6rf-Rh-7N6"; */
+"6rf-Rh-7N6.title" = "Manejo de la App";
+
+/* Class = "UIButton"; normalTitle = "Siguiente"; ObjectID = "6yb-Nu-Fx9"; */
+"6yb-Nu-Fx9.normalTitle" = "Siguiente";
+
+/* Class = "UILabel"; text = "Se empeoran"; ObjectID = "7Yk-u6-Y3W"; */
+"7Yk-u6-Y3W.text" = "Se empeoran";
+
+/* Class = "UIButton"; normalTitle = "Pendientes"; ObjectID = "8Li-S5-Xe5"; */
+"8Li-S5-Xe5.normalTitle" = "Pendientes";
+
+/* Class = "UILabel"; text = "Contraseña actual"; ObjectID = "8Vb-6p-tGT"; */
+"8Vb-6p-tGT.text" = "Contraseña actual";
+
+/* Class = "UINavigationItem"; title = "Créditos"; ObjectID = "8iu-nz-qNc"; */
+"8iu-nz-qNc.title" = "Créditos";
+
+/* Class = "UILabel"; text = "* Paciente firmó consentimiento informado"; ObjectID = "9F2-IG-Tdo"; */
+"9F2-IG-Tdo.text" = "* Paciente firmó consentimiento informado";
+
+/* Class = "UINavigationItem"; title = "Mis tickets"; ObjectID = "9FN-w6-SgT"; */
+"9FN-w6-SgT.title" = "Mis tickets";
+
+/* Class = "UILabel"; text = "* Primer apellido"; ObjectID = "9hC-ex-iTV"; */
+"9hC-ex-iTV.text" = "* Primer apellido";
+
+/* Class = "UILabel"; text = "Directora General\nHospital Universitario Centro Dermatológico Federico Lleras Acosta\nDirectora General Telederma"; ObjectID = "9pQ-fX-N5i"; */
+"9pQ-fX-N5i.text" = "Directora General\nHospital Universitario Centro Dermatológico Federico Lleras Acosta\nDirectora General Telederma";
+
+/* Class = "UITextField"; placeholder = "Ingrese nombre del representante"; ObjectID = "A5y-Zr-wNl"; */
+"A5y-Zr-wNl.placeholder" = "Ingrese nombre del representante";
+
+/* Class = "UILabel"; text = "Paciente"; ObjectID = "A92-QD-EEU"; */
+"A92-QD-EEU.text" = "Paciente";
+
+/* Class = "UILabel"; text = "* Zona de residencia"; ObjectID = "Agp-ac-mNz"; */
+"Agp-ac-mNz.text" = "* Zona de residencia";
+
+/* Class = "UITextField"; placeholder = "Ingrese su número de identificación"; ObjectID = "B72-nv-ghG"; */
+"B72-nv-ghG.placeholder" = "Ingrese su número de identificación";
+
+/* Class = "UILabel"; text = "Médico Prueba Dragonjar"; ObjectID = "BHz-RS-dvE"; */
+"BHz-RS-dvE.text" = "Médico Prueba Dragonjar";
+
+/* Class = "UILabel"; text = "* Apellido(s)"; ObjectID = "BkM-8P-FJ9"; */
+"BkM-8P-FJ9.text" = "* Apellido(s)";
+
+/* Class = "UINavigationItem"; title = "Mesa de ayuda"; ObjectID = "Bkv-ug-elV"; */
+"Bkv-ug-elV.title" = "Mesa de ayuda";
+
+/* Class = "UIButton"; normalTitle = "Resueltas"; ObjectID = "ClW-uB-Ldi"; */
+"ClW-uB-Ldi.normalTitle" = "Resueltas";
+
+/* Class = "UILabel"; text = "Exudan"; ObjectID = "D1m-ed-pPL"; */
+"D1m-ed-pPL.text" = "Exudan";
+
+/* Class = "UILabel"; text = "* He leído y acepto los términos y condiciones, incluyendo el tratamiento de mis datos personales."; ObjectID = "D3J-ZV-L6D"; */
+"D3J-ZV-L6D.text" = "* He leído y acepto los términos y condiciones, incluyendo el tratamiento de mis datos personales.";
+
+/* Class = "UITextField"; placeholder = "Ingrese ocupación"; ObjectID = "DKa-hS-t8G"; */
+"DKa-hS-t8G.placeholder" = "Ingrese ocupación";
+
+/* Class = "UILabel"; text = "Familiares"; ObjectID = "DLg-M0-U2Y"; */
+"DLg-M0-U2Y.text" = "Familiares";
+
+/* Class = "UIButton"; normalTitle = "Estable"; ObjectID = "DQg-Xz-LbA"; */
+"DQg-Xz-LbA.normalTitle" = "Estable";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "DVn-JW-7ep"; */
+"DVn-JW-7ep.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "Ingrese edad"; ObjectID = "Dcc-GE-5fq"; */
+"Dcc-GE-5fq.placeholder" = "Ingrese edad";
+
+/* Class = "UINavigationItem"; title = "Consultas"; ObjectID = "DhD-n7-mYg"; */
+"DhD-n7-mYg.title" = "Consultas";
+
+/* Class = "UIButton"; normalTitle = "Confirmar"; ObjectID = "Dq0-vb-RYS"; */
+"Dq0-vb-RYS.normalTitle" = "Confirmar";
+
+/* Class = "UILabel"; text = "Usuario"; ObjectID = "EFm-ip-AyD"; */
+"EFm-ip-AyD.text" = "Usuario";
+
+/* Class = "UIButton"; normalTitle = "Recurrentes"; ObjectID = "EiZ-vw-l2V"; */
+"EiZ-vw-l2V.normalTitle" = "Recurrentes";
+
+/* Class = "UILabel"; text = "Información paciente"; ObjectID = "Emw-Ho-Afo"; */
+"Emw-Ho-Afo.text" = "Información paciente";
+
+/* Class = "UITextField"; placeholder = "Ingrese su contraseña"; ObjectID = "En3-az-Dw9"; */
+"En3-az-Dw9.placeholder" = "Ingrese su contraseña";
+
+/* Class = "UILabel"; text = "* Sexo"; ObjectID = "F9J-xz-dau"; */
+"F9J-xz-dau.text" = "* Sexo";
+
+/* Class = "UIButton"; normalTitle = "Gestión"; ObjectID = "FbB-4R-8vZ"; */
+"FbB-4R-8vZ.normalTitle" = "Gestión";
+
+/* Class = "UILabel"; text = "Dra. Claudia Marcela Rojas Daza"; ObjectID = "Fl6-MF-SGD"; */
+"Fl6-MF-SGD.text" = "Dra. Claudia Marcela Rojas Daza";
+
+/* Class = "UILabel"; text = "Bienvenido"; ObjectID = "GhH-ip-gAX"; */
+"GhH-ip-gAX.text" = "Bienvenido";
+
+/* Class = "UITextField"; placeholder = "Impresión diagnóstica"; ObjectID = "Gyf-UL-tlC"; */
+"Gyf-UL-tlC.placeholder" = "Impresión diagnóstica";
+
+/* Class = "UITextField"; placeholder = "Ingrese su correo electrónico"; ObjectID = "GzM-yT-94p"; */
+"GzM-yT-94p.placeholder" = "Ingrese su correo electrónico";
+
+/* Class = "UITextField"; placeholder = "Ingrese celular del acompañante"; ObjectID = "HC0-dO-QcO"; */
+"HC0-dO-QcO.placeholder" = "Ingrese celular del acompañante";
+
+/* Class = "UIButton"; normalTitle = "Historia clínica"; ObjectID = "HCv-h6-0Vz"; */
+"HCv-h6-0Vz.normalTitle" = "Historia clínica";
+
+/* Class = "UILabel"; text = "Estado"; ObjectID = "Hcm-bw-HsT"; */
+"Hcm-bw-HsT.text" = "Estado";
+
+/* Class = "UITextField"; placeholder = "Ingrese el segundo apellido"; ObjectID = "He7-PR-F8d"; */
+"He7-PR-F8d.placeholder" = "Ingrese el segundo apellido";
+
+/* Class = "UITextField"; placeholder = "Confirme su contraseña"; ObjectID = "HjS-oL-JnB"; */
+"HjS-oL-JnB.placeholder" = "Confirme su contraseña";
+
+/* Class = "UIButton"; normalTitle = "Acerca de Telederma"; ObjectID = "Hr7-kV-rjA"; */
+"Hr7-kV-rjA.normalTitle" = "Acerca de Telederma";
+
+/* Class = "UILabel"; text = "Nueva contraseña"; ObjectID = "HrD-si-mPd"; */
+"HrD-si-mPd.text" = "Nueva contraseña";
+
+/* Class = "UILabel"; text = "Cargando ..."; ObjectID = "HwV-p5-V0G"; */
+"HwV-p5-V0G.text" = "Cargando ...";
+
+/* Class = "UIButton"; normalTitle = "Nueva consulta"; ObjectID = "Hxb-pH-9dv"; */
+"Hxb-pH-9dv.normalTitle" = "Nueva consulta";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "I0b-Ak-SFY"; */
+"I0b-Ak-SFY.normalTitle" = "Seleccionar";
+
+/* Class = "UILabel"; text = "Teléfono de contacto"; ObjectID = "I8A-4B-M6N"; */
+"I8A-4B-M6N.text" = "Teléfono de contacto";
+
+/* Class = "UILabel"; text = "Número de autorización"; ObjectID = "IIB-pN-uGG"; */
+"IIB-pN-uGG.text" = "Número de autorización";
+
+/* Class = "UITextField"; placeholder = "Ingrese su correo electrónico"; ObjectID = "J5r-Td-Jl8"; */
+"J5r-Td-Jl8.placeholder" = "Ingrese su correo electrónico";
+
+/* Class = "UILabel"; text = "* Unidad de medida"; ObjectID = "JD2-fX-dVv"; */
+"JD2-fX-dVv.text" = "* Unidad de medida";
+
+/* Class = "UILabel"; text = "No ha podido recuperar su contraseña o ingresar."; ObjectID = "Jad-je-52q"; */
+"Jad-je-52q.text" = "No ha podido recuperar su contraseña o ingresar.";
+
+/* Class = "UIButton"; normalTitle = "Adjuntar foto"; ObjectID = "JdU-kG-nip"; */
+"JdU-kG-nip.normalTitle" = "Adjuntar foto";
+
+/* Class = "UILabel"; text = "Cambios evidentes (si aplica)"; ObjectID = "JhL-OO-zlx"; */
+"JhL-OO-zlx.text" = "Cambios evidentes (si aplica)";
+
+/* Class = "UIButton"; normalTitle = "Soy nuevo"; ObjectID = "Jqd-6r-QD6"; */
+"Jqd-6r-QD6.normalTitle" = "Soy nuevo";
+
+/* Class = "UILabel"; text = "Nombre(s)"; ObjectID = "K2A-0w-tfl"; */
+"K2A-0w-tfl.text" = "Nombre(s)";
+
+/* Class = "UITextField"; placeholder = "Ingrese su número de contacto"; ObjectID = "Kc3-Rm-kyz"; */
+"Kc3-Rm-kyz.placeholder" = "Ingrese su número de contacto";
+
+/* Class = "UISegmentedControl"; Kjg-JI-Ooh.segmentTitles[0] = "Si"; ObjectID = "Kjg-JI-Ooh"; */
+"Kjg-JI-Ooh.segmentTitles[0]" = "Si";
+
+/* Class = "UISegmentedControl"; Kjg-JI-Ooh.segmentTitles[1] = "No"; ObjectID = "Kjg-JI-Ooh"; */
+"Kjg-JI-Ooh.segmentTitles[1]" = "No";
+
+/* Class = "UIButton"; normalTitle = "Borrar"; ObjectID = "KtE-HI-HfZ"; */
+"KtE-HI-HfZ.normalTitle" = "Borrar";
+
+/* Class = "UIButton"; normalTitle = "Progresivas"; ObjectID = "L1Z-FO-xLP"; */
+"L1Z-FO-xLP.normalTitle" = "Progresivas";
+
+/* Class = "UILabel"; text = "Seleccionar archivo"; ObjectID = "LUq-Rr-7Rz"; */
+"LUq-Rr-7Rz.text" = "Seleccionar archivo";
+
+/* Class = "UILabel"; text = "Paso 2"; ObjectID = "LeR-b9-5U0"; */
+"LeR-b9-5U0.text" = "Paso 2";
+
+/* Class = "UILabel"; text = "Dra. Elin Xiomara Perea Flórez"; ObjectID = "Ler-N8-sgl"; */
+"Ler-N8-sgl.text" = "Dra. Elin Xiomara Perea Flórez";
+
+/* Class = "UIButton"; normalTitle = "Toma de imágenes"; ObjectID = "Lqg-CR-Uhu"; */
+"Lqg-CR-Uhu.normalTitle" = "Toma de imágenes";
+
+/* Class = "UILabel"; text = "Estado"; ObjectID = "MWY-Lt-aNn"; */
+"MWY-Lt-aNn.text" = "Estado";
+
+/* Class = "UITextField"; placeholder = "Ingrese el segundo nombre"; ObjectID = "N3n-I7-5Yx"; */
+"N3n-I7-5Yx.placeholder" = "Ingrese el segundo nombre";
+
+/* Class = "UIButton"; normalTitle = "Pacientes"; ObjectID = "NIa-uX-NPe"; */
+"NIa-uX-NPe.normalTitle" = "Pacientes";
+
+/* Class = "UIButton"; normalTitle = "Preguntas frecuentes"; ObjectID = "Nie-3L-nyB"; */
+"Nie-3L-nyB.normalTitle" = "Preguntas frecuentes";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Nmu-qJ-L4I"; */
+"Nmu-qJ-L4I.title" = "Item";
+
+/* Class = "UILabel"; text = "* Municipio"; ObjectID = "OAI-gx-LLC"; */
+"OAI-gx-LLC.text" = "* Municipio";
+
+/* Class = "UITextField"; placeholder = "Ingrese su contraseña actual"; ObjectID = "Pbg-UT-H4F"; */
+"Pbg-UT-H4F.placeholder" = "Ingrese su contraseña actual";
+
+/* Class = "UITextField"; placeholder = "Ingrese su nombre"; ObjectID = "Pmh-ig-uEr"; */
+"Pmh-ig-uEr.placeholder" = "Ingrese su nombre";
+
+/* Class = "UILabel"; text = "* Tarjeta profesional"; ObjectID = "Pzj-d8-vDR"; */
+"Pzj-d8-vDR.text" = "* Tarjeta profesional";
+
+/* Class = "UILabel"; text = "* Asegurador"; ObjectID = "QLK-hi-khz"; */
+"QLK-hi-khz.text" = "* Asegurador";
+
+/* Class = "UILabel"; text = "Tipo identificación"; ObjectID = "Qd5-G4-WNB"; */
+"Qd5-G4-WNB.text" = "Tipo identificación";
+
+/* Class = "UISegmentedControl"; QkI-LS-hAq.segmentTitles[0] = "Masculino"; ObjectID = "QkI-LS-hAq"; */
+"QkI-LS-hAq.segmentTitles[0]" = "Masculino";
+
+/* Class = "UISegmentedControl"; QkI-LS-hAq.segmentTitles[1] = "Femenino"; ObjectID = "QkI-LS-hAq"; */
+"QkI-LS-hAq.segmentTitles[1]" = "Femenino";
+
+/* Class = "UIButton"; normalTitle = "Olvidé mi contraseña"; ObjectID = "Qm0-7f-ecg"; */
+"Qm0-7f-ecg.normalTitle" = "Olvidé mi contraseña";
+
+/* Class = "UILabel"; text = "* Correo"; ObjectID = "RJN-bk-YQq"; */
+"RJN-bk-YQq.text" = "* Correo";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "RbI-nj-NbZ"; */
+"RbI-nj-NbZ.normalTitle" = "Seleccionar";
+
+/* Class = "UITextField"; placeholder = "Ingrese su nueva contraseña"; ObjectID = "RfE-fN-Z1K"; */
+"RfE-fN-Z1K.placeholder" = "Ingrese su nueva contraseña";
+
+/* Class = "UILabel"; text = "* Causa externa"; ObjectID = "Ro5-ZZ-TIw"; */
+"Ro5-ZZ-TIw.text" = "* Causa externa";
+
+/* Class = "UISegmentedControl"; Ss1-ZA-Tng.segmentTitles[0] = "Si"; ObjectID = "Ss1-ZA-Tng"; */
+"Ss1-ZA-Tng.segmentTitles[0]" = "Si";
+
+/* Class = "UISegmentedControl"; Ss1-ZA-Tng.segmentTitles[1] = "No"; ObjectID = "Ss1-ZA-Tng"; */
+"Ss1-ZA-Tng.segmentTitles[1]" = "No";
+
+/* Class = "UIButton"; normalTitle = "dd/mm/aa"; ObjectID = "Th2-iG-8PP"; */
+"Th2-iG-8PP.normalTitle" = "dd/mm/aa";
+
+/* Class = "UITextField"; placeholder = "Ingrese el número autorización si fue expedido por el asegurador"; ObjectID = "ToZ-5y-nw4"; */
+"ToZ-5y-nw4.placeholder" = "Ingrese el número autorización si fue expedido por el asegurador";
+
+/* Class = "UILabel"; text = "* Impresión diagnóstica"; ObjectID = "Tsl-FT-zy2"; */
+"Tsl-FT-zy2.text" = "* Impresión diagnóstica";
+
+/* Class = "UILabel"; text = "----"; ObjectID = "Ua8-vC-FeR"; */
+"Ua8-vC-FeR.text" = "----";
+
+/* Class = "UILabel"; text = "Exámen físico"; ObjectID = "Vam-Be-vAE"; */
+"Vam-Be-vAE.text" = "Exámen físico";
+
+/* Class = "UILabel"; text = "* Usuario"; ObjectID = "Vbs-aO-BNx"; */
+"Vbs-aO-BNx.text" = "* Usuario";
+
+/* Class = "UILabel"; text = "Tratamiento recibido"; ObjectID = "Vty-Ri-U3y"; */
+"Vty-Ri-U3y.text" = "Tratamiento recibido";
+
+/* Class = "UITextField"; placeholder = "Peso en (KG)"; ObjectID = "W86-hd-go2"; */
+"W86-hd-go2.placeholder" = "Peso en (KG)";
+
+/* Class = "UILabel"; text = "* Primer nombre"; ObjectID = "WHC-nU-QnL"; */
+"WHC-nU-QnL.text" = "* Primer nombre";
+
+/* Class = "UISegmentedControl"; WP6-Pv-9jR.segmentTitles[0] = "Urbana"; ObjectID = "WP6-Pv-9jR"; */
+"WP6-Pv-9jR.segmentTitles[0]" = "Urbana";
+
+/* Class = "UISegmentedControl"; WP6-Pv-9jR.segmentTitles[1] = "Rural"; ObjectID = "WP6-Pv-9jR"; */
+"WP6-Pv-9jR.segmentTitles[1]" = "Rural";
+
+/* Class = "UILabel"; text = "Fecha"; ObjectID = "Wdt-DW-RpH"; */
+"Wdt-DW-RpH.text" = "Fecha";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "Wsu-wY-GA3"; */
+"Wsu-wY-GA3.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "XOp-5m-MQr"; */
+"XOp-5m-MQr.normalTitle" = "Seleccionar";
+
+/* Class = "UILabel"; text = "Resultados de búsqueda"; ObjectID = "XPr-0Z-zwz"; */
+"XPr-0Z-zwz.text" = "Resultados de búsqueda";
+
+/* Class = "UILabel"; text = "Efecto del tratamiento recibido"; ObjectID = "XlK-Ul-ucb"; */
+"XlK-Ul-ucb.text" = "Efecto del tratamiento recibido";
+
+/* Class = "UIButton"; normalTitle = "Aprende"; ObjectID = "XrB-z2-u6n"; */
+"XrB-z2-u6n.normalTitle" = "Aprende";
+
+/* Class = "UILabel"; text = "Supuran"; ObjectID = "YVr-2c-RTk"; */
+"YVr-2c-RTk.text" = "Supuran";
+
+/* Class = "UINavigationItem"; title = "Aprende"; ObjectID = "YYz-g6-pcC"; */
+"YYz-g6-pcC.title" = "Aprende";
+
+/* Class = "UILabel"; text = "* Edad"; ObjectID = "Yc2-t1-91F"; */
+"Yc2-t1-91F.text" = "* Edad";
+
+/* Class = "UILabel"; text = "Telederma"; ObjectID = "Z3J-65-yuX"; */
+"Z3J-65-yuX.text" = "Telederma";
+
+/* Class = "UILabel"; text = "Descripción"; ObjectID = "ZAL-uU-xSb"; */
+"ZAL-uU-xSb.text" = "Descripción";
+
+/* Class = "UIButton"; normalTitle = "Dolor"; ObjectID = "ZZf-jR-7KX"; */
+"ZZf-jR-7KX.normalTitle" = "Dolor";
+
+/* Class = "UITextField"; placeholder = "Aseguradora"; ObjectID = "ZZh-1u-noS"; */
+"ZZh-1u-noS.placeholder" = "Aseguradora";
+
+/* Class = "UITextView"; text = "Ingrese antecedentes de tipo: Médicos, Quirúrgicos, Tóxicos, Alérgicos, Ginecológicos, Farmacológicos, Otros."; ObjectID = "a91-0G-BWt"; */
+"a91-0G-BWt.text" = "Ingrese antecedentes de tipo: Médicos, Quirúrgicos, Tóxicos, Alérgicos, Ginecológicos, Farmacológicos, Otros.";
+
+/* Class = "UILabel"; text = "Parentesco"; ObjectID = "aXj-qx-uE8"; */
+"aXj-qx-uE8.text" = "Parentesco";
+
+/* Class = "UITextField"; placeholder = "Ingrese su número de documento"; ObjectID = "aeJ-Fs-XSu"; */
+"aeJ-Fs-XSu.placeholder" = "Ingrese su número de documento";
+
+/* Class = "UISegmentedControl"; avL-Sk-kmf.segmentTitles[0] = "Si"; ObjectID = "avL-Sk-kmf"; */
+"avL-Sk-kmf.segmentTitles[0]" = "Si";
+
+/* Class = "UISegmentedControl"; avL-Sk-kmf.segmentTitles[1] = "No"; ObjectID = "avL-Sk-kmf"; */
+"avL-Sk-kmf.segmentTitles[1]" = "No";
+
+/* Class = "UILabel"; text = "BrainCo S.A.S.\nwww.brainco.com.co"; ObjectID = "b42-JA-Km9"; */
+"b42-JA-Km9.text" = "BrainCo S.A.S.\nwww.brainco.com.co";
+
+/* Class = "UITextField"; placeholder = "Ingrese su nombre"; ObjectID = "bF1-XJ-428"; */
+"bF1-XJ-428.placeholder" = "Ingrese su nombre";
+
+/* Class = "UIButton"; normalTitle = "Enviar"; ObjectID = "be4-Sj-ekj"; */
+"be4-Sj-ekj.normalTitle" = "Enviar";
+
+/* Class = "UILabel"; text = "Créditos cargados"; ObjectID = "bgS-sN-0Hc"; */
+"bgS-sN-0Hc.text" = "Créditos cargados";
+
+/* Class = "UILabel"; text = "↓ Deslice hacia abajo para actualizar la bandeja ↓"; ObjectID = "bio-50-Q5z"; */
+"bio-50-Q5z.text" = "↓ Deslice hacia abajo para actualizar la bandeja ↓";
+
+/* Class = "UIButton"; normalTitle = "Acerca de Telederma"; ObjectID = "bt8-LJ-nL8"; */
+"bt8-LJ-nL8.normalTitle" = "Acerca de Telederma";
+
+/* Class = "UIButton"; normalTitle = "Aumento de tamaño"; ObjectID = "bwg-Uk-odg"; */
+"bwg-Uk-odg.normalTitle" = "Aumento de tamaño";
+
+/* Class = "UITextField"; placeholder = "Ingrese su identificación"; ObjectID = "cGa-nJ-eeL"; */
+"cGa-nJ-eeL.placeholder" = "Ingrese su identificación";
+
+/* Class = "UIButton"; normalTitle = "Semiología cutánea"; ObjectID = "cSf-vF-Mgh"; */
+"cSf-vF-Mgh.normalTitle" = "Semiología cutánea";
+
+/* Class = "UINavigationItem"; title = "Datos paciente"; ObjectID = "cUk-MZ-2q2"; */
+"cUk-MZ-2q2.title" = "Datos paciente";
+
+/* Class = "UIButton"; normalTitle = "Firmar"; ObjectID = "cuI-nM-xJ0"; */
+"cuI-nM-xJ0.normalTitle" = "Firmar";
+
+/* Class = "UILabel"; text = "Historial Tickets"; ObjectID = "dBX-LI-hqA"; */
+"dBX-LI-hqA.text" = "Historial Tickets";
+
+/* Class = "UILabel"; text = "Mínimo 6 caracteres"; ObjectID = "dHU-qI-LEL"; */
+"dHU-qI-LEL.text" = "Mínimo 6 caracteres";
+
+/* Class = "UIButton"; normalTitle = "Enviar"; ObjectID = "dKs-qF-RkL"; */
+"dKs-qF-RkL.normalTitle" = "Enviar";
+
+/* Class = "UILabel"; text = "* Tipo de usuario"; ObjectID = "dNQ-RE-EcD"; */
+"dNQ-RE-EcD.text" = "* Tipo de usuario";
+
+/* Class = "UILabel"; text = "Dr. Camilo A. Barrera Valencia"; ObjectID = "dTi-Yd-VNw"; */
+"dTi-Yd-VNw.text" = "Dr. Camilo A. Barrera Valencia";
+
+/* Class = "UINavigationItem"; title = "Créditos"; ObjectID = "doz-AN-B00"; */
+"doz-AN-B00.title" = "Créditos";
+
+/* Class = "UINavigationItem"; title = "Consultas"; ObjectID = "dyV-W1-Rhm"; */
+"dyV-W1-Rhm.title" = "Consultas";
+
+/* Class = "UINavigationItem"; title = "Acerca de Telederma"; ObjectID = "e2U-1K-lKA"; */
+"e2U-1K-lKA.title" = "Acerca de Telederma";
+
+/* Class = "UITextField"; placeholder = "Ingrese los efectos del tratamiento"; ObjectID = "e4O-Cf-7Wk"; */
+"e4O-Cf-7Wk.placeholder" = "Ingrese los efectos del tratamiento";
+
+/* Class = "UIButton"; normalTitle = "Historial"; ObjectID = "eAc-P7-NFv"; */
+"eAc-P7-NFv.normalTitle" = "Historial";
+
+/* Class = "UITextField"; placeholder = "Ingrese el celular"; ObjectID = "ebH-5v-hiJ"; */
+"ebH-5v-hiJ.placeholder" = "Ingrese el celular";
+
+/* Class = "UILabel"; text = "Diseño y Desarrollo de la App:"; ObjectID = "eci-eB-1Mm"; */
+"eci-eB-1Mm.text" = "Diseño y Desarrollo de la App:";
+
+/* Class = "UILabel"; text = "Enviar código a su correo"; ObjectID = "eeT-qW-fFz"; */
+"eeT-qW-fFz.text" = "Enviar código a su correo";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "elc-ni-yYU"; */
+"elc-ni-yYU.normalTitle" = "Seleccionar";
+
+/* Class = "UIButton"; normalTitle = "Siguiente"; ObjectID = "eyR-5M-PPi"; */
+"eyR-5M-PPi.normalTitle" = "Siguiente";
+
+/* Class = "UILabel"; text = "----"; ObjectID = "ezB-uL-MHQ"; */
+"ezB-uL-MHQ.text" = "----";
+
+/* Class = "UILabel"; text = "Mínimo 6 caracteres"; ObjectID = "ezN-8F-dGP"; */
+"ezN-8F-dGP.text" = "Mínimo 6 caracteres";
+
+/* Class = "UIButton"; normalTitle = "Mesa de ayuda"; ObjectID = "fOt-u0-HXQ"; */
+"fOt-u0-HXQ.normalTitle" = "Mesa de ayuda";
+
+/* Class = "UIButton"; normalTitle = "Buscar"; ObjectID = "fPk-IS-f6s"; */
+"fPk-IS-f6s.normalTitle" = "Buscar";
+
+/* Class = "UILabel"; text = "Dirección de domicilio"; ObjectID = "fQZ-iE-cUV"; */
+"fQZ-iE-cUV.text" = "Dirección de domicilio";
+
+/* Class = "UILabel"; text = "Apellido(s)"; ObjectID = "fXO-vd-MIa"; */
+"fXO-vd-MIa.text" = "Apellido(s)";
+
+/* Class = "UITextField"; placeholder = "Ingrese su apellido"; ObjectID = "frC-va-WdV"; */
+"frC-va-WdV.placeholder" = "Ingrese su apellido";
+
+/* Class = "UILabel"; text = "* Teléfono de contacto"; ObjectID = "fzc-vm-wlS"; */
+"fzc-vm-wlS.text" = "* Teléfono de contacto";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "CeldaTciket"; ObjectID = "gMy-JG-WOA"; */
+"gMy-JG-WOA.accessibilityLabel" = "CeldaTciket";
+
+/* Class = "UITextField"; placeholder = "Ingrese su número de identificación"; ObjectID = "gUp-Pd-K9w"; */
+"gUp-Pd-K9w.placeholder" = "Ingrese su número de identificación";
+
+/* Class = "UILabel"; text = "Si no quieres cambiar de contraseña, dejar en blanco los siguientes campos:"; ObjectID = "ga4-bE-XLL"; */
+"ga4-bE-XLL.text" = "Si no quieres cambiar de contraseña, dejar en blanco los siguientes campos:";
+
+/* Class = "UIButton"; normalTitle = "Firma"; ObjectID = "gkg-Sv-b5R"; */
+"gkg-Sv-b5R.normalTitle" = "Firma";
+
+/* Class = "UILabel"; text = "Asunto"; ObjectID = "gtD-IR-ypj"; */
+"gtD-IR-ypj.text" = "Asunto";
+
+/* Class = "UIButton"; normalTitle = "Imágenes"; ObjectID = "guF-MW-f9l"; */
+"guF-MW-f9l.normalTitle" = "Imágenes";
+
+/* Class = "UILabel"; text = "Correo"; ObjectID = "gzu-jK-fDg"; */
+"gzu-jK-fDg.text" = "Correo";
+
+/* Class = "UITextField"; placeholder = "Ingrese su contraseña"; ObjectID = "hS5-SU-zUJ"; */
+"hS5-SU-zUJ.placeholder" = "Ingrese su contraseña";
+
+/* Class = "UIButton"; normalTitle = "Guardar cambios"; ObjectID = "hUt-bA-mhu"; */
+"hUt-bA-mhu.normalTitle" = "Guardar cambios";
+
+/* Class = "UILabel"; text = "* Evolución de las lesiones"; ObjectID = "hig-xq-n5e"; */
+"hig-xq-n5e.text" = "* Evolución de las lesiones";
+
+/* Class = "UILabel"; text = "* Tiempo"; ObjectID = "iM4-Li-nvz"; */
+"iM4-Li-nvz.text" = "* Tiempo";
+
+/* Class = "UILabel"; text = "Cambiar contraseña"; ObjectID = "imi-q6-OHh"; */
+"imi-q6-OHh.text" = "Cambiar contraseña";
+
+/* Class = "UIButton"; normalTitle = "Nuevo Paciente"; ObjectID = "io1-TW-DG7"; */
+"io1-TW-DG7.normalTitle" = "Nuevo Paciente";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "isg-ln-aZF"; */
+"isg-ln-aZF.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Consultas"; ObjectID = "itJ-rD-D8d"; */
+"itJ-rD-D8d.title" = "Consultas";
+
+/* Class = "UIButton"; normalTitle = "Créditos"; ObjectID = "iwM-Vi-coY"; */
+"iwM-Vi-coY.normalTitle" = "Créditos";
+
+/* Class = "UINavigationItem"; title = "Gestión"; ObjectID = "jLr-E0-Iba"; */
+"jLr-E0-Iba.title" = "Gestión";
+
+/* Class = "UINavigationItem"; title = "Soy nuevo"; ObjectID = "jMo-wK-cR9"; */
+"jMo-wK-cR9.title" = "Soy nuevo";
+
+/* Class = "UILabel"; text = "Fecha"; ObjectID = "jg6-H5-ki7"; */
+"jg6-H5-ki7.text" = "Fecha";
+
+/* Class = "UIButton"; normalTitle = "Respuesta"; ObjectID = "k4u-fk-nS6"; */
+"k4u-fk-nS6.normalTitle" = "Respuesta";
+
+/* Class = "UINavigationItem"; title = "Recuperar contraseña"; ObjectID = "kPg-gN-kmh"; */
+"kPg-gN-kmh.title" = "Recuperar contraseña";
+
+/* Class = "UILabel"; text = "Créditos disponibles"; ObjectID = "l5H-24-XBl"; */
+"l5H-24-XBl.text" = "Créditos disponibles";
+
+/* Class = "UILabel"; text = "* Usuario"; ObjectID = "l6I-ua-qx1"; */
+"l6I-ua-qx1.text" = "* Usuario";
+
+/* Class = "UITextField"; placeholder = "Ingrese dirección domicilio"; ObjectID = "l7R-m5-Rit"; */
+"l7R-m5-Rit.placeholder" = "Ingrese dirección domicilio";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "lXS-sq-PeZ"; */
+"lXS-sq-PeZ.normalTitle" = "Seleccionar";
+
+/* Class = "UITextField"; placeholder = "Ingrese su número de identificación"; ObjectID = "liu-xM-9zA"; */
+"liu-xM-9zA.placeholder" = "Ingrese su número de identificación";
+
+/* Class = "UITextField"; placeholder = "Ingrese el parentesco"; ObjectID = "lkg-kc-IK2"; */
+"lkg-kc-IK2.placeholder" = "Ingrese el parentesco";
+
+/* Class = "UINavigationItem"; title = "Historia clínica"; ObjectID = "llh-Wh-OlC"; */
+"llh-Wh-OlC.title" = "Historia clínica";
+
+/* Class = "UITextField"; placeholder = "Ingrese su apellido"; ObjectID = "lnr-9I-2v4"; */
+"lnr-9I-2v4.placeholder" = "Ingrese su apellido";
+
+/* Class = "UILabel"; text = "* Fecha de nacimiento"; ObjectID = "ltF-fj-tjD"; */
+"ltF-fj-tjD.text" = "* Fecha de nacimiento";
+
+/* Class = "UILabel"; text = "* Confirmar contraseña"; ObjectID = "ltd-rV-k1V"; */
+"ltd-rV-k1V.text" = "* Confirmar contraseña";
+
+/* Class = "UIButton"; normalTitle = "Siguiente"; ObjectID = "mKT-o8-5nU"; */
+"mKT-o8-5nU.normalTitle" = "Siguiente";
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "mW1-Dd-qBa"; */
+"mW1-Dd-qBa.text" = "Nombre";
+
+/* Class = "UITextField"; placeholder = "Ingrese el correo electrónico"; ObjectID = "mWW-My-RLX"; */
+"mWW-My-RLX.placeholder" = "Ingrese el correo electrónico";
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "n9k-cy-vCc"; */
+"n9k-cy-vCc.text" = "Nombre";
+
+/* Class = "UITextField"; placeholder = "Ingrese su número de identificación"; ObjectID = "nCv-Du-lRe"; */
+"nCv-Du-lRe.placeholder" = "Ingrese su número de identificación";
+
+/* Class = "UIButton"; normalTitle = "Ingresar"; ObjectID = "ncC-Vl-T4L"; */
+"ncC-Vl-T4L.normalTitle" = "Ingresar";
+
+/* Class = "UITextField"; placeholder = "Ingrese antecedentes familiares"; ObjectID = "nji-F6-6Qk"; */
+"nji-F6-6Qk.placeholder" = "Ingrese antecedentes familiares";
+
+/* Class = "UITextField"; placeholder = "Ingrese celular del responsable"; ObjectID = "oqx-C1-oOu"; */
+"oqx-C1-oOu.placeholder" = "Ingrese celular del responsable";
+
+/* Class = "UITextField"; placeholder = "Ingrese sustancias aplicadas"; ObjectID = "p1H-gj-8py"; */
+"p1H-gj-8py.placeholder" = "Ingrese sustancias aplicadas";
+
+/* Class = "UILabel"; text = "Confirmar nueva contraseña"; ObjectID = "p6a-bU-dYr"; */
+"p6a-bU-dYr.text" = "Confirmar nueva contraseña";
+
+/* Class = "UILabel"; text = "Paciente"; ObjectID = "p8H-YZ-mb1"; */
+"p8H-YZ-mb1.text" = "Paciente";
+
+/* Class = "UIButton"; normalTitle = "Registrarme"; ObjectID = "pKt-EY-u2F"; */
+"pKt-EY-u2F.normalTitle" = "Registrarme";
+
+/* Class = "UILabel"; text = "* Contraseña"; ObjectID = "pNo-oJ-1QV"; */
+"pNo-oJ-1QV.text" = "* Contraseña";
+
+/* Class = "UIButton"; normalTitle = "Ver política de datos y términos y condiciones"; ObjectID = "pWM-ru-rJF"; */
+"pWM-ru-rJF.normalTitle" = "Ver política de datos y términos y condiciones";
+
+/* Class = "UILabel"; text = "* Confirmar número de identificación"; ObjectID = "pcg-fM-soL"; */
+"pcg-fM-soL.text" = "* Confirmar número de identificación";
+
+/* Class = "UILabel"; text = "Enviar ticket"; ObjectID = "phL-FE-i0a"; */
+"phL-FE-i0a.text" = "Enviar ticket";
+
+/* Class = "UILabel"; text = "* Peso en (KG)"; ObjectID = "pkR-7r-Z3g"; */
+"pkR-7r-Z3g.text" = "* Peso en (KG)";
+
+/* Class = "UIButton"; normalTitle = "Mi perfil"; ObjectID = "ppo-NP-B3a"; */
+"ppo-NP-B3a.normalTitle" = "Mi perfil";
+
+/* Class = "UILabel"; text = "Otros factores que agravan los síntomas"; ObjectID = "q7a-Vg-UqG"; */
+"q7a-Vg-UqG.text" = "Otros factores que agravan los síntomas";
+
+/* Class = "UILabel"; text = "Teléfono: (571) 3077072 Bogotá\nCorreo: telederma@dermatologia.gov.co"; ObjectID = "qGN-UR-Fg9"; */
+"qGN-UR-Fg9.text" = "Teléfono: (571) 3077072 Bogotá\nCorreo: telederma@dermatologia.gov.co";
+
+/* Class = "UILabel"; text = "Paciente"; ObjectID = "qlW-tR-4KP"; */
+"qlW-tR-4KP.text" = "Paciente";
+
+/* Class = "UILabel"; text = "Otras sustancias aplicadas"; ObjectID = "r6v-OV-U30"; */
+"r6v-OV-U30.text" = "Otras sustancias aplicadas";
+
+/* Class = "UILabel"; text = "Por favor realizar la firma en la pantalla del celular"; ObjectID = "rKb-UI-Anq"; */
+"rKb-UI-Anq.text" = "Por favor realizar la firma en la pantalla del celular";
+
+/* Class = "UIButton"; normalTitle = "Aviso legal"; ObjectID = "rNq-L8-zVW"; */
+"rNq-L8-zVW.normalTitle" = "Aviso legal";
+
+/* Class = "UILabel"; text = "Segundo apellido"; ObjectID = "rRg-Rq-caK"; */
+"rRg-Rq-caK.text" = "Segundo apellido";
+
+/* Class = "UIButton"; normalTitle = " Manual de usuario"; ObjectID = "rSZ-N9-bkB"; */
+"rSZ-N9-bkB.normalTitle" = " Manual de usuario";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "rSs-BD-hFS"; */
+"rSs-BD-hFS.normalTitle" = "Seleccionar";
+
+/* Class = "UILabel"; text = "Subdirectora Técnico Científica\nHospital Universitario Centro Dermatológico Federico Lleras Acosta\nDirectora Científica Telederma"; ObjectID = "rXt-TQ-pzh"; */
+"rXt-TQ-pzh.text" = "Subdirectora Técnico Científica\nHospital Universitario Centro Dermatológico Federico Lleras Acosta\nDirectora Científica Telederma";
+
+/* Class = "UILabel"; text = "* Departamento"; ObjectID = "rek-kD-Iji"; */
+"rek-kD-Iji.text" = "* Departamento";
+
+/* Class = "UIButton"; normalTitle = "Manejo de la App"; ObjectID = "rsa-JA-ldi"; */
+"rsa-JA-ldi.normalTitle" = "Manejo de la App";
+
+/* Class = "UIButton"; normalTitle = "Salir"; ObjectID = "s8v-jK-C2A"; */
+"s8v-jK-C2A.normalTitle" = "Salir";
+
+/* Class = "UIButton"; normalTitle = "Cambio de color"; ObjectID = "sDm-ZK-eJw"; */
+"sDm-ZK-eJw.normalTitle" = "Cambio de color";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "sEs-wa-mC5"; */
+"sEs-wa-mC5.normalTitle" = "Seleccionar";
+
+/* Class = "UINavigationItem"; title = "Nuevo ticket"; ObjectID = "spE-ix-bFu"; */
+"spE-ix-bFu.title" = "Nuevo ticket";
+
+/* Class = "UILabel"; text = "* Estado civil"; ObjectID = "srP-d6-cYN"; */
+"srP-d6-cYN.text" = "* Estado civil";
+
+/* Class = "UIButton"; normalTitle = "Créditos"; ObjectID = "svv-KI-MZZ"; */
+"svv-KI-MZZ.normalTitle" = "Créditos";
+
+/* Class = "UILabel"; text = "Anamnesis"; ObjectID = "tHr-bQ-Yzn"; */
+"tHr-bQ-Yzn.text" = "Anamnesis";
+
+/* Class = "UIButton"; normalTitle = "Toma de biopsia"; ObjectID = "tdm-fK-8R5"; */
+"tdm-fK-8R5.normalTitle" = "Toma de biopsia";
+
+/* Class = "UIButton"; normalTitle = "Ardor"; ObjectID = "teL-Bx-arE"; */
+"teL-Bx-arE.normalTitle" = "Ardor";
+
+/* Class = "UILabel"; text = "Personales"; ObjectID = "toF-wk-JuN"; */
+"toF-wk-JuN.text" = "Personales";
+
+/* Class = "UILabel"; text = "* Usuario"; ObjectID = "toX-NG-jjS"; */
+"toX-NG-jjS.text" = "* Usuario";
+
+/* Class = "UILabel"; text = "Este módulo contiene recursos de video y texto que orientará el manejo y funcionamiento adecuado de la aplicación."; ObjectID = "trq-K4-pzq"; */
+"trq-K4-pzq.text" = "Este módulo contiene recursos de video y texto que orientará el manejo y funcionamiento adecuado de la aplicación.";
+
+/* Class = "UINavigationItem"; title = "Exámen físico"; ObjectID = "tw0-eV-i8Y"; */
+"tw0-eV-i8Y.title" = "Exámen físico";
+
+/* Class = "UINavigationItem"; title = "Mi perfil"; ObjectID = "uBS-He-X2g"; */
+"uBS-He-X2g.title" = "Mi perfil";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "uco-Km-c9C"; */
+"uco-Km-c9C.normalTitle" = "Seleccionar";
+
+/* Class = "UILabel"; text = "Ocupación"; ObjectID = "ue6-zA-Va1"; */
+"ue6-zA-Va1.text" = "Ocupación";
+
+/* Class = "UIButton"; normalTitle = "¿Qué es Telederma?"; ObjectID = "uet-wB-B9t"; */
+"uet-wB-B9t.normalTitle" = "¿Qué es Telederma?";
+
+/* Class = "UILabel"; text = "Por favor comuníquese con nosotros a la línea telefónica (571) 3077072 Bogotá o al correo electrónico telederma@dermatologia.gov.co."; ObjectID = "uhM-dZ-kYl"; */
+"uhM-dZ-kYl.text" = "Por favor comuníquese con nosotros a la línea telefónica (571) 3077072 Bogotá o al correo electrónico telederma@dermatologia.gov.co.";
+
+/* Class = "UIButton"; normalTitle = "Cancelar"; ObjectID = "uhu-Gm-i9k"; */
+"uhu-Gm-i9k.normalTitle" = "Cancelar";
+
+/* Class = "UITextField"; placeholder = "Ingrese número de contacto"; ObjectID = "vBR-OW-dpj"; */
+"vBR-OW-dpj.placeholder" = "Ingrese número de contacto";
+
+/* Class = "UILabel"; text = "Celular"; ObjectID = "vhk-JA-PqO"; */
+"vhk-JA-PqO.text" = "Celular";
+
+/* Class = "UIButton"; normalTitle = "Seleccionar"; ObjectID = "vjT-Ok-bv4"; */
+"vjT-Ok-bv4.normalTitle" = "Seleccionar";
+
+/* Class = "UILabel"; text = "Segundo nombre"; ObjectID = "vnt-i0-OuY"; */
+"vnt-i0-OuY.text" = "Segundo nombre";
+
+/* Class = "UITextField"; placeholder = "Ingrese el tiempo"; ObjectID = "w9c-Ie-Cvl"; */
+"w9c-Ie-Cvl.placeholder" = "Ingrese el tiempo";
+
+/* Class = "UILabel"; text = "* Tiempo de evolución"; ObjectID = "wKH-Oz-7ll"; */
+"wKH-Oz-7ll.text" = "* Tiempo de evolución";
+
+/* Class = "UILabel"; text = "No hay resultados"; ObjectID = "wxg-aV-yht"; */
+"wxg-aV-yht.text" = "No hay resultados";
+
+/* Class = "UILabel"; text = "Persona responsable"; ObjectID = "x7j-CS-enF"; */
+"x7j-CS-enF.text" = "Persona responsable";
+
+/* Class = "UIButton"; normalTitle = "Certificación"; ObjectID = "xLx-n2-Gjs"; */
+"xLx-n2-Gjs.normalTitle" = "Certificación";
+
+/* Class = "UILabel"; text = "Persona acompañante"; ObjectID = "xo8-1l-OBN"; */
+"xo8-1l-OBN.text" = "Persona acompañante";
+
+/* Class = "UIButton"; normalTitle = "Permanentes"; ObjectID = "y3b-rN-zdX"; */
+"y3b-rN-zdX.normalTitle" = "Permanentes";
+
+/* Class = "UILabel"; text = "Asesor Telederma"; ObjectID = "y3g-IT-QMY"; */
+"y3g-IT-QMY.text" = "Asesor Telederma";
+
+/* Class = "UITextField"; placeholder = "Ingrese el primer apellido"; ObjectID = "yNf-Tf-RG9"; */
+"yNf-Tf-RG9.placeholder" = "Ingrese el primer apellido";
+
+/* Class = "UILabel"; text = "Celular"; ObjectID = "yQz-Ll-VTj"; */
+"yQz-Ll-VTj.text" = "Celular";
+
+/* Class = "UIButton"; normalTitle = "Enviar"; ObjectID = "yWN-wP-FeG"; */
+"yWN-wP-FeG.normalTitle" = "Enviar";
+
+/* Class = "UITextField"; placeholder = "Ingrese nombre del acompañante"; ObjectID = "ym4-vz-O0t"; */
+"ym4-vz-O0t.placeholder" = "Ingrese nombre del acompañante";
+
+/* Class = "UIButton"; normalTitle = " Video tutorial manejo de la App"; ObjectID = "yq8-nV-hsL"; */
+"yq8-nV-hsL.normalTitle" = " Video tutorial manejo de la App";
+
+/* Class = "UIButton"; normalTitle = "Consulta"; ObjectID = "yvo-yg-8AT"; */
+"yvo-yg-8AT.normalTitle" = "Consulta";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "z8R-m9-Nil"; */
+"z8R-m9-Nil.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Editar mi perfil"; ObjectID = "zf4-me-HBS"; */
+"zf4-me-HBS.normalTitle" = "Editar mi perfil";
+
+/* Class = "UITextField"; placeholder = "Confirme su nueva contraseña"; ObjectID = "zmn-fu-qGm"; */
+"zmn-fu-qGm.placeholder" = "Confirme su nueva contraseña";
+
+/* Class = "UILabel"; text = "Paso 1"; ObjectID = "znP-Qe-qUw"; */
+"znP-Qe-qUw.text" = "Paso 1";
+
+/* Class = "UILabel"; text = "* Número de identificación"; ObjectID = "zvU-SV-bmT"; */
+"zvU-SV-bmT.text" = "* Número de identificación";

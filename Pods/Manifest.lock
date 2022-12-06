@@ -1,0 +1,88 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - ObjectMapper (3.5.3)
+  - Presentr (1.9)
+  - SDWebImage/Core (5.9.2)
+  - SDWebImageWebPCoder (0.6.1):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.7)
+  - SearchTextField (1.2.4)
+  - SideMenu (6.4.9)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SwiftyJSON (4.0.0)
+  - UberSignature (1.0.3):
+    - UberSignature/Swift (= 1.0.3)
+  - UberSignature/Swift (1.0.3)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Alamofire-SwiftyJSON
+  - AlamofireImage (~> 3.5)
+  - AlamofireObjectMapper (~> 5.2)
+  - Presentr
+  - SDWebImageWebPCoder
+  - SearchTextField
+  - SideMenu
+  - SQLite.swift (~> 0.12.0)
+  - SwiftyJSON (~> 4.0)
+  - UberSignature
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - AlamofireImage
+    - AlamofireObjectMapper
+    - libwebp
+    - ObjectMapper
+    - Presentr
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SearchTextField
+    - SideMenu
+    - SQLite.swift
+    - SwiftyJSON
+    - UberSignature
+    - "UITextView+Placeholder"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  SDWebImage: 0b42b8719ab0c5257177d5894306e8a336b21cbb
+  SDWebImageWebPCoder: d0dac55073088d24b2ac1b191a71a8f8d0adac21
+  SearchTextField: 40dc3cc57def5a211f263cac263622c163bbc25a
+  SideMenu: 8ef57a3cfc024a2d3fc1c036c7fe98537baec9e0
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  UberSignature: 93a5860a83211569d6d25b586e0fcad8aa163144
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: 32778222098ae50c82d316acbbda5325d2a0ac16
+
+COCOAPODS: 1.5.2

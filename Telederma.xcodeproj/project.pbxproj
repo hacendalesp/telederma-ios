@@ -1,0 +1,1267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7188C0C24467BA400832EB6 /* GestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7188C0B24467BA400832EB6 /* GestionViewController.swift */; };
+		E7188C0E244694A600832EB6 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7188C0D244694A600832EB6 /* WalletViewController.swift */; };
+		E718AC5024A26DC200FEC80F /* HelpDeskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718AC4F24A26DC200FEC80F /* HelpDeskViewController.swift */; };
+		E71D83742481B5F800390846 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D83732481B5F800390846 /* MenuViewController.swift */; };
+		E71EBED72522D0B700AA1860 /* CustomLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71EBED62522D0B700AA1860 /* CustomLongPress.swift */; };
+		E721293324B5296900371DA0 /* MemoriaHistoriaClinica.swift in Sources */ = {isa = PBXBuildFile; fileRef = E721293224B5296900371DA0 /* MemoriaHistoriaClinica.swift */; };
+		E7217EC72418A09500EA5B7A /* Pods_Telederma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8346298457F8CC111744C1EE /* Pods_Telederma.framework */; };
+		E7217ECA2418A0A700EA5B7A /* Pods_Telederma.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8346298457F8CC111744C1EE /* Pods_Telederma.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7245F0424565A4100CBF4F4 /* Validacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7245F0324565A4100CBF4F4 /* Validacion.swift */; };
+		E7245F062456642B00CBF4F4 /* Gestos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7245F052456642B00CBF4F4 /* Gestos.swift */; };
+		E726E47A243E826D00E7F8A3 /* FachadaIndependientesSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E726E479243E826D00E7F8A3 /* FachadaIndependientesSQL.swift */; };
+		E72A429724BD1BDB00A51F1D /* RespuestaEspecialista.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A429624BD1BDB00A51F1D /* RespuestaEspecialista.swift */; };
+		E72A429924BD1C9A00A51F1D /* SQLRespuestaEspecialista.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A429824BD1C9A00A51F1D /* SQLRespuestaEspecialista.swift */; };
+		E72A429B24BD1D1400A51F1D /* DaoRespuestaEspecialista.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A429A24BD1D1400A51F1D /* DaoRespuestaEspecialista.swift */; };
+		E72A429D24BD207600A51F1D /* Especialista.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A429C24BD207600A51F1D /* Especialista.swift */; };
+		E72A429F24BD216900A51F1D /* SQLEspecialista.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A429E24BD216900A51F1D /* SQLEspecialista.swift */; };
+		E72A42A124BD21C700A51F1D /* DaoEspecialista.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A42A024BD21C700A51F1D /* DaoEspecialista.swift */; };
+		E72C880A24291C0000EE97A8 /* SQLBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72C880924291C0000EE97A8 /* SQLBase.swift */; };
+		E72C88102429689000EE97A8 /* SQLDepartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72C880F2429689000EE97A8 /* SQLDepartamento.swift */; };
+		E7310DD723F99D0700AE9CF1 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7310DD623F99D0700AE9CF1 /* LaunchViewController.swift */; };
+		E7310DD923F99F2A00AE9CF1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7310DD823F99F2A00AE9CF1 /* LoginViewController.swift */; };
+		E7385ED7246A21DE0052113F /* Aseguradora.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7385ED6246A21DE0052113F /* Aseguradora.swift */; };
+		E7385ED9246A229B0052113F /* SQLAseguradora.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7385ED8246A229B0052113F /* SQLAseguradora.swift */; };
+		E7385EDD246A24880052113F /* HttpAseguradora.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7385EDC246A24880052113F /* HttpAseguradora.swift */; };
+		E7385EDF246A3D6C0052113F /* Cie10.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7385EDE246A3D6C0052113F /* Cie10.swift */; };
+		E7385EE1246A3DCD0052113F /* SQLCie10.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7385EE0246A3DCC0052113F /* SQLCie10.swift */; };
+		E739B8A32486BECE00975F5E /* RegistroPacienteViewController4Anadir.swift in Sources */ = {isa = PBXBuildFile; fileRef = E739B8A22486BECE00975F5E /* RegistroPacienteViewController4Anadir.swift */; };
+		E739B8A52486D14300975F5E /* FotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E739B8A42486D14300975F5E /* FotosCollectionViewCell.swift */; };
+		E74254CC24A18BE900C8DEB1 /* HelpDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74254CB24A18BE800C8DEB1 /* HelpDesk.swift */; };
+		E74254CE24A1923500C8DEB1 /* SQLHelpDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74254CD24A1923500C8DEB1 /* SQLHelpDesk.swift */; };
+		E74254D024A1933400C8DEB1 /* DaoHelpDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74254CF24A1933400C8DEB1 /* DaoHelpDesk.swift */; };
+		E74254D224A1940D00C8DEB1 /* HttpHelpDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74254D124A1940D00C8DEB1 /* HttpHelpDesk.swift */; };
+		E743BDF5248ED15500E1E0DE /* RegistroPacienteViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743BDF4248ED15500E1E0DE /* RegistroPacienteViewController5.swift */; };
+		E7455DED2485DA1100D609A0 /* RegistroPacienteViewController4Foto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7455DEC2485DA1100D609A0 /* RegistroPacienteViewController4Foto.swift */; };
+		E749BB0A24591EAE002701B1 /* FachadaIndepentientesHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749BB0924591EAE002701B1 /* FachadaIndepentientesHTTP.swift */; };
+		E749BB0C24591FDE002701B1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749BB0B24591FDE002701B1 /* NetworkError.swift */; };
+		E74B436D245F9C0100608AD5 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B436C245F9C0000608AD5 /* Usuario.swift */; };
+		E74B436F245F9E2600608AD5 /* SQLUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B436E245F9E2600608AD5 /* SQLUsuario.swift */; };
+		E74C5E7D24EF43050029C731 /* Adjunto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C5E7C24EF43050029C731 /* Adjunto.swift */; };
+		E74CC551253FA2C5007DFF6A /* FormulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74CC550253FA2C5007DFF6A /* FormulaViewController.swift */; };
+		E74D6941253FB19100CFDD03 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74D6940253FB19100CFDD03 /* WebViewController.swift */; };
+		E74D6943253FB4CE00CFDD03 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74D6942253FB4CE00CFDD03 /* WebKit.framework */; };
+		E74DA24024D45F530053761E /* ControlMedicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74DA23F24D45F530053761E /* ControlMedicoViewController.swift */; };
+		E75815302457B84900BEFEBB /* HttpCie10.swift in Sources */ = {isa = PBXBuildFile; fileRef = E758152F2457B84900BEFEBB /* HttpCie10.swift */; };
+		E75815322457B87400BEFEBB /* HttpBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75815312457B87400BEFEBB /* HttpBase.swift */; };
+		E75815342457C67600BEFEBB /* HttpDepartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75815332457C67600BEFEBB /* HttpDepartamento.swift */; };
+		E759B5A124E8D139001A0B74 /* ModalInformacionEstaticaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E759B5A024E8D139001A0B74 /* ModalInformacionEstaticaViewController.swift */; };
+		E75C9C572481560F0056C9E1 /* RegistroPacienteViewController4Camara.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C9C562481560F0056C9E1 /* RegistroPacienteViewController4Camara.swift */; };
+		E75CA63C2442353F00C3CFFE /* FirmaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CA63B2442353F00C3CFFE /* FirmaViewController.swift */; };
+		E75CA6492442B3EF00C3CFFE /* CreditosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CA6482442B3EF00C3CFFE /* CreditosViewController.swift */; };
+		E75CA64B2442B48000C3CFFE /* AcercaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CA64A2442B48000C3CFFE /* AcercaViewController.swift */; };
+		E75CA64D2442B85300C3CFFE /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CA64C2442B85300C3CFFE /* PerfilViewController.swift */; };
+		E75E97DD248F0814007653AB /* AnexosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E97DC248F0814007653AB /* AnexosCollectionViewCell.swift */; };
+		E767AEFF24A6600F007A1660 /* DetalleTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767AEFE24A6600F007A1660 /* DetalleTicketViewController.swift */; };
+		E7693D02242822890087FB2A /* Conexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7693D01242822890087FB2A /* Conexion.swift */; };
+		E76ACDC62468C714000ABF9F /* Constante.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76ACDC52468C714000ABF9F /* Constante.swift */; };
+		E76ACDC82468DE9D000ABF9F /* SQLConstante.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76ACDC72468DE9D000ABF9F /* SQLConstante.swift */; };
+		E76ACDCC2468E544000ABF9F /* ConstanteValor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76ACDCB2468E544000ABF9F /* ConstanteValor.swift */; };
+		E76ACDCE2468E7DC000ABF9F /* SQLConstanteValor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76ACDCD2468E7DC000ABF9F /* SQLConstanteValor.swift */; };
+		E76ACDD22468EC90000ABF9F /* HttpConstante.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76ACDD12468EC90000ABF9F /* HttpConstante.swift */; };
+		E76BF7BF24AEA4FD00D472EC /* InternoImagenesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76BF7BE24AEA4FD00D472EC /* InternoImagenesViewController.swift */; };
+		E76BF7C124AEB66800D472EC /* InternoRespuestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76BF7C024AEB66800D472EC /* InternoRespuestaViewController.swift */; };
+		E76BF7C324AEC91B00D472EC /* InternoHistorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76BF7C224AEC91B00D472EC /* InternoHistorialViewController.swift */; };
+		E76CC7A124C3CB820093C540 /* ExamenSolicitado.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7A024C3CB820093C540 /* ExamenSolicitado.swift */; };
+		E76CC7A324C3CC240093C540 /* SQLExamenSolicitado.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7A224C3CC240093C540 /* SQLExamenSolicitado.swift */; };
+		E76CC7A524C3CC7C0093C540 /* DaoExamenSolicitado.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7A424C3CC7C0093C540 /* DaoExamenSolicitado.swift */; };
+		E76CC7A724C3CCAC0093C540 /* Formula.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7A624C3CCAC0093C540 /* Formula.swift */; };
+		E76CC7A924C3CDA60093C540 /* SQLFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7A824C3CDA60093C540 /* SQLFormula.swift */; };
+		E76CC7AB24C3CE000093C540 /* DaoFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7AA24C3CE000093C540 /* DaoFormula.swift */; };
+		E76CC7AD24C3CE860093C540 /* Mipres.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7AC24C3CE860093C540 /* Mipres.swift */; };
+		E76CC7AF24C3CECA0093C540 /* SQLMipres.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7AE24C3CECA0093C540 /* SQLMipres.swift */; };
+		E76CC7B124C3CF210093C540 /* DaoMipres.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7B024C3CF210093C540 /* DaoMipres.swift */; };
+		E76CC7B524C3CF660093C540 /* Requerimiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7B424C3CF660093C540 /* Requerimiento.swift */; };
+		E76CC7B724C3D04E0093C540 /* SQLRequerimiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7B624C3D04E0093C540 /* SQLRequerimiento.swift */; };
+		E76CC7B924C3D0C80093C540 /* DaoRequerimiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CC7B824C3D0C80093C540 /* DaoRequerimiento.swift */; };
+		E76D682124997B9D005F30EB /* MemoriaRegistroPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76D682024997B9D005F30EB /* MemoriaRegistroPaciente.swift */; };
+		E76D682324997BB2005F30EB /* MemoriaRegistroConsulta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76D682224997BB2005F30EB /* MemoriaRegistroConsulta.swift */; };
+		E770862B24F2D7AD005B73EB /* ImagenAnexo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770862A24F2D7AD005B73EB /* ImagenAnexo.swift */; };
+		E770862D24F2DAB1005B73EB /* SQLImagenAnexo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770862C24F2DAB1005B73EB /* SQLImagenAnexo.swift */; };
+		E770862F24F2DB16005B73EB /* DaoImagenAnexo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770862E24F2DB16005B73EB /* DaoImagenAnexo.swift */; };
+		E774752C24F3154A0041F75B /* ArchivosEnviar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774752B24F3154A0041F75B /* ArchivosEnviar.swift */; };
+		E774752E24F316240041F75B /* SQLArchivosEnviar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774752D24F316240041F75B /* SQLArchivosEnviar.swift */; };
+		E774753024F319510041F75B /* DaoArchivosEnviar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774752F24F319510041F75B /* DaoArchivosEnviar.swift */; };
+		E774753424F323E50041F75B /* HttpArchivosEnviar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774753324F323E50041F75B /* HttpArchivosEnviar.swift */; };
+		E7757BCF24A2CF630011BBD5 /* MesaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7757BCE24A2CF630011BBD5 /* MesaViewController.swift */; };
+		E7757BD124A2E4D50011BBD5 /* ImagenDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7757BD024A2E4D50011BBD5 /* ImagenDetalleViewController.swift */; };
+		E7777EC624A3EE05004F6B58 /* FachadaHTTPDependientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7777EC524A3EE05004F6B58 /* FachadaHTTPDependientes.swift */; };
+		E7777EC824A408AD004F6B58 /* FachadaDependientesSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7777EC724A408AD004F6B58 /* FachadaDependientesSQL.swift */; };
+		E7777ECA24A40A1F004F6B58 /* Creditos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7777EC924A40A1F004F6B58 /* Creditos.swift */; };
+		E7777ECC24A40AAE004F6B58 /* SQLCreditos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7777ECB24A40AAE004F6B58 /* SQLCreditos.swift */; };
+		E7777ECE24A40D23004F6B58 /* DaoCreditos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7777ECD24A40D23004F6B58 /* DaoCreditos.swift */; };
+		E7777ED024A40E29004F6B58 /* HttpCreditos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7777ECF24A40E29004F6B58 /* HttpCreditos.swift */; };
+		E77B556224E9938300EF7955 /* VisorPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B556124E9938300EF7955 /* VisorPDFViewController.swift */; };
+		E77B556824E9987E00EF7955 /* que_es_telederma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E77B556324E9987C00EF7955 /* que_es_telederma.pdf */; };
+		E77B556924E9987E00EF7955 /* instructivo_biopsia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E77B556424E9987D00EF7955 /* instructivo_biopsia.pdf */; };
+		E77B556A24E9987E00EF7955 /* toma_de_imagenes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E77B556524E9987D00EF7955 /* toma_de_imagenes.pdf */; };
+		E77B556B24E9987E00EF7955 /* manual_de_usuario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E77B556624E9987E00EF7955 /* manual_de_usuario.pdf */; };
+		E77B556C24E9987E00EF7955 /* semiologia_anexos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E77B556724E9987E00EF7955 /* semiologia_anexos.pdf */; };
+		E77B556F24E9DCDE00EF7955 /* ManejoAPPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B556E24E9DCDE00EF7955 /* ManejoAPPViewController.swift */; };
+		E77B557524E9DEAE00EF7955 /* tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E77B557124E9DE5900EF7955 /* tutorial.mp4 */; };
+		E77B557624E9DEAE00EF7955 /* biopsia_elipse.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E77B557224E9DE7400EF7955 /* biopsia_elipse.mp4 */; };
+		E77B557724E9DEAE00EF7955 /* video_semiologia.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E77B557324E9DE8C00EF7955 /* video_semiologia.mp4 */; };
+		E77B557824E9DEAE00EF7955 /* biopsia_sacabocado.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E77B557424E9DEAE00EF7955 /* biopsia_sacabocado.mp4 */; };
+		E77B557A24E9E2AD00EF7955 /* TomaBiopsiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B557924E9E2AD00EF7955 /* TomaBiopsiaViewController.swift */; };
+		E77B557C24E9E67D00EF7955 /* SemiologiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B557B24E9E67D00EF7955 /* SemiologiaViewController.swift */; };
+		E77B557E24E9FF3300EF7955 /* SemiologiaDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B557D24E9FF3300EF7955 /* SemiologiaDetalleViewController.swift */; };
+		E77CD39F252396DE005AEA26 /* CustomArchivarCompartirConsultaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77CD39E252396DE005AEA26 /* CustomArchivarCompartirConsultaViewController.swift */; };
+		E77CD3A12523D318005AEA26 /* CustomCompartirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77CD3A02523D318005AEA26 /* CustomCompartirViewController.swift */; };
+		E783269B24AD3EC900BF5919 /* InternoHistoriaClinicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E783269A24AD3EC900BF5919 /* InternoHistoriaClinicaViewController.swift */; };
+		E785D0AF2467629100C9A098 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = E785D0AE2467629100C9A098 /* Paciente.swift */; };
+		E785D0B12467651400C9A098 /* SQLPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = E785D0B02467651400C9A098 /* SQLPaciente.swift */; };
+		E785D0B52467668300C9A098 /* HttpPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = E785D0B42467668300C9A098 /* HttpPaciente.swift */; };
+		E785D0B724676B6900C9A098 /* InformacionPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = E785D0B624676B6900C9A098 /* InformacionPaciente.swift */; };
+		E785D0B924676DE800C9A098 /* SQLInformacionPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = E785D0B824676DE800C9A098 /* SQLInformacionPaciente.swift */; };
+		E78D2BCC24BA7730003BEDA7 /* ControlMedico.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D2BCB24BA772F003BEDA7 /* ControlMedico.swift */; };
+		E78D2BCE24BA789E003BEDA7 /* Diagnostico.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D2BCD24BA789E003BEDA7 /* Diagnostico.swift */; };
+		E78D2BD024BA7A1C003BEDA7 /* SQLControlMedico.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D2BCF24BA7A1C003BEDA7 /* SQLControlMedico.swift */; };
+		E78D2BD224BA7AAB003BEDA7 /* SQLDiagnostico.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D2BD124BA7AAB003BEDA7 /* SQLDiagnostico.swift */; };
+		E78D2BD424BA7C97003BEDA7 /* DaoControlMedico.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D2BD324BA7C97003BEDA7 /* DaoControlMedico.swift */; };
+		E78D2BD624BA7CAD003BEDA7 /* DaoDiagnostico.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D2BD524BA7CAD003BEDA7 /* DaoDiagnostico.swift */; };
+		E78D8A2124A56BF300166511 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D8A2024A56BF300166511 /* TicketTableViewCell.swift */; };
+		E78DB69E245FC445003B44DE /* HttpUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78DB69D245FC445003B44DE /* HttpUsuario.swift */; };
+		E78E0C5324A8F25A007E5D4E /* ParteCuerpo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E0C5224A8F25A007E5D4E /* ParteCuerpo.swift */; };
+		E78E0C5524A8F3CA007E5D4E /* SQLParteCuerpo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E0C5424A8F3CA007E5D4E /* SQLParteCuerpo.swift */; };
+		E78E0C5724A8F46C007E5D4E /* DaoParteCuerpo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E0C5624A8F46C007E5D4E /* DaoParteCuerpo.swift */; };
+		E78E0C5924A8F709007E5D4E /* HttpParteCuerpo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E0C5824A8F709007E5D4E /* HttpParteCuerpo.swift */; };
+		E78E0C5B24A9124B007E5D4E /* HttpConsultaMedica.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E0C5A24A9124B007E5D4E /* HttpConsultaMedica.swift */; };
+		E78E0C5F24A9604E007E5D4E /* ConsultaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E0C5E24A9604E007E5D4E /* ConsultaTableViewCell.swift */; };
+		E78E516324AA96CA0040371B /* FilaInternaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E516224AA96CA0040371B /* FilaInternaTableViewCell.swift */; };
+		E78FEB9C249EED1700BC60E8 /* DaoPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FEB7C249EED1700BC60E8 /* DaoPaciente.swift */; };
+		E78FEBA4249EED1700BC60E8 /* DaoMunicipio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FEB84249EED1700BC60E8 /* DaoMunicipio.swift */; };
+		E78FEBAC249EED1700BC60E8 /* DaoInformacionPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FEB8C249EED1700BC60E8 /* DaoInformacionPaciente.swift */; };
+		E78FEBAD249EED1700BC60E8 /* DaoUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FEB8D249EED1700BC60E8 /* DaoUsuario.swift */; };
+		E78FEBBC249EEE1A00BC60E8 /* DaoDepartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FEBBB249EEE1A00BC60E8 /* DaoDepartamento.swift */; };
+		E78FEBBE249EEE3200BC60E8 /* DaoConstante.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FEBBD249EEE3200BC60E8 /* DaoConstante.swift */; };
+		E78FEBC0249EEE4100BC60E8 /* DaoConstanteValor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FEBBF249EEE4100BC60E8 /* DaoConstanteValor.swift */; };
+		E78FEBC2249EEE5100BC60E8 /* DaoAseguradora.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FEBC1249EEE5100BC60E8 /* DaoAseguradora.swift */; };
+		E78FEBC4249EEE6600BC60E8 /* DaoCie10.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FEBC3249EEE6600BC60E8 /* DaoCie10.swift */; };
+		E790C87C24C5F28A00C810A4 /* InformacionPacienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790C87B24C5F28A00C810A4 /* InformacionPacienteViewController.swift */; };
+		E79AB2C724A55EC3004723BD /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AB2C624A55EC3004723BD /* TicketsViewController.swift */; };
+		E79EA25824EB0844003DFEAB /* CertificacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EA25724EB0844003DFEAB /* CertificacionViewController.swift */; };
+		E79FFCFE2520F0430029044B /* CustomRequerimientoDescartarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FFCFD2520F0430029044B /* CustomRequerimientoDescartarViewController.swift */; };
+		E79FFD00252107AD0029044B /* HttpRequerimiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FFCFF252107AD0029044B /* HttpRequerimiento.swift */; };
+		E79FFD02252121650029044B /* CustomRequerimientoResolverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FFD01252121650029044B /* CustomRequerimientoResolverViewController.swift */; };
+		E7AAFD36244D1E070087FEAC /* AprendeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AAFD35244D1E070087FEAC /* AprendeViewController.swift */; };
+		E7B427C724B7CCD3009B7C07 /* ImagenLesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B427C524B7CCD3009B7C07 /* ImagenLesion.swift */; };
+		E7B427C824B7CCD3009B7C07 /* Lesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B427C624B7CCD3009B7C07 /* Lesion.swift */; };
+		E7B427CB24B7CE2F009B7C07 /* SQLImagenLesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B427C924B7CE2F009B7C07 /* SQLImagenLesion.swift */; };
+		E7B427CC24B7CE2F009B7C07 /* SQLLesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B427CA24B7CE2F009B7C07 /* SQLLesion.swift */; };
+		E7B427CF24B7CF94009B7C07 /* DaoLesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B427CD24B7CF94009B7C07 /* DaoLesion.swift */; };
+		E7B427D024B7CF94009B7C07 /* DaoImagenLesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B427CE24B7CF94009B7C07 /* DaoImagenLesion.swift */; };
+		E7B427D224B8099E009B7C07 /* ImagenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B427D124B8099E009B7C07 /* ImagenCollectionViewCell.swift */; };
+		E7B47B1F23F4C36300997278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B47B1E23F4C36300997278 /* AppDelegate.swift */; };
+		E7B47B2123F4C36300997278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B47B2023F4C36300997278 /* SceneDelegate.swift */; };
+		E7B47B2623F4C36300997278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B47B2423F4C36300997278 /* Main.storyboard */; };
+		E7B47B2823F4C36800997278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B47B2723F4C36800997278 /* Assets.xcassets */; };
+		E7B47B2B23F4C36800997278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B47B2923F4C36800997278 /* LaunchScreen.storyboard */; };
+		E7B6B64A246388CD000F6ADC /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6B649246388CD000F6ADC /* Mensajes.swift */; };
+		E7BB6F1A249EDB48008350E0 /* ConsultaMedica.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB6F19249EDB48008350E0 /* ConsultaMedica.swift */; };
+		E7BB6F1C249EE852008350E0 /* SQLConsultaMedica.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB6F1B249EE852008350E0 /* SQLConsultaMedica.swift */; };
+		E7BBC26F24437B67009EFBF0 /* ConsultaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BBC26E24437B67009EFBF0 /* ConsultaViewController.swift */; };
+		E7BBC27124437C62009EFBF0 /* PacienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BBC27024437C62009EFBF0 /* PacienteViewController.swift */; };
+		E7BBC27324437E71009EFBF0 /* HistoriaClinicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BBC27224437E71009EFBF0 /* HistoriaClinicaViewController.swift */; };
+		E7BBC27524438009009EFBF0 /* RegistroPacienteViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BBC27424438009009EFBF0 /* RegistroPacienteViewController1.swift */; };
+		E7BBC27724438F04009EFBF0 /* RegistroPacienteViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BBC27624438F04009EFBF0 /* RegistroPacienteViewController2.swift */; };
+		E7BBC2792443A854009EFBF0 /* RegistroPacienteViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BBC2782443A854009EFBF0 /* RegistroPacienteViewController3.swift */; };
+		E7C7FF2D2419321100885189 /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7FF2C2419321100885189 /* Departamento.swift */; };
+		E7C7FF35241934DB00885189 /* ModeloBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7FF34241934DB00885189 /* ModeloBase.swift */; };
+		E7D6A37E24EE00EB00B0EA65 /* HttpControlMedico.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D6A37D24EE00EB00B0EA65 /* HttpControlMedico.swift */; };
+		E7DE355024807BFA00D18B86 /* RegistroPacienteViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE354F24807BFA00D18B86 /* RegistroPacienteViewController4.swift */; };
+		E7E1B70524201DC90043BEE9 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E1B70424201DC90043BEE9 /* Constantes.swift */; };
+		E7E1B70724201E8E0043BEE9 /* OlvideContraseniaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E1B70624201E8E0043BEE9 /* OlvideContraseniaViewController.swift */; };
+		E7E1B7092420269C0043BEE9 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E1B7082420269C0043BEE9 /* RegistroViewController.swift */; };
+		E7E758E5245CCB4800AA903F /* Municipio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E758E4245CCB4800AA903F /* Municipio.swift */; };
+		E7E758E7245CCD3B00AA903F /* SQLMunicipio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E758E6245CCD3B00AA903F /* SQLMunicipio.swift */; };
+		E7E758EB245CD10200AA903F /* Funcionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E758EA245CD10200AA903F /* Funcionales.swift */; };
+		E7EAD38A24918A1A00ED2A7B /* RegistroPacienteTerminacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EAD38924918A1A00ED2A7B /* RegistroPacienteTerminacionViewController.swift */; };
+		E7F824DB24C7B91B00236C28 /* ImagenHistoriaClinicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F824DA24C7B91B00236C28 /* ImagenHistoriaClinicaViewController.swift */; };
+		E7FC3C17249FA38800B45232 /* DaoConsultaMedica.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC3C16249FA38800B45232 /* DaoConsultaMedica.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7217EC92418A09500EA5B7A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7217ECA2418A0A700EA5B7A /* Pods_Telederma.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8346298457F8CC111744C1EE /* Pods_Telederma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telederma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89FE90C8A2FC34D1F00289F /* Pods-Telederma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telederma.release.xcconfig"; path = "Pods/Target Support Files/Pods-Telederma/Pods-Telederma.release.xcconfig"; sourceTree = "<group>"; };
+		D1A4F9731F1098A6649269CD /* Pods-Telederma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telederma.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Telederma/Pods-Telederma.debug.xcconfig"; sourceTree = "<group>"; };
+		E7188C0B24467BA400832EB6 /* GestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestionViewController.swift; sourceTree = "<group>"; };
+		E7188C0D244694A600832EB6 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		E718AC4F24A26DC200FEC80F /* HelpDeskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDeskViewController.swift; sourceTree = "<group>"; };
+		E71D83732481B5F800390846 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E71EBED62522D0B700AA1860 /* CustomLongPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLongPress.swift; sourceTree = "<group>"; };
+		E721293224B5296900371DA0 /* MemoriaHistoriaClinica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriaHistoriaClinica.swift; sourceTree = "<group>"; };
+		E7217EB924189ED200EA5B7A /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7217EBF24189F1C00EA5B7A /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7217EC32418A08300EA5B7A /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7245F0324565A4100CBF4F4 /* Validacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validacion.swift; sourceTree = "<group>"; };
+		E7245F052456642B00CBF4F4 /* Gestos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestos.swift; sourceTree = "<group>"; };
+		E726E479243E826D00E7F8A3 /* FachadaIndependientesSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FachadaIndependientesSQL.swift; sourceTree = "<group>"; };
+		E72A429624BD1BDB00A51F1D /* RespuestaEspecialista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespuestaEspecialista.swift; sourceTree = "<group>"; };
+		E72A429824BD1C9A00A51F1D /* SQLRespuestaEspecialista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLRespuestaEspecialista.swift; sourceTree = "<group>"; };
+		E72A429A24BD1D1400A51F1D /* DaoRespuestaEspecialista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoRespuestaEspecialista.swift; sourceTree = "<group>"; };
+		E72A429C24BD207600A51F1D /* Especialista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Especialista.swift; sourceTree = "<group>"; };
+		E72A429E24BD216900A51F1D /* SQLEspecialista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLEspecialista.swift; sourceTree = "<group>"; };
+		E72A42A024BD21C700A51F1D /* DaoEspecialista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoEspecialista.swift; sourceTree = "<group>"; };
+		E72C880924291C0000EE97A8 /* SQLBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLBase.swift; sourceTree = "<group>"; };
+		E72C880F2429689000EE97A8 /* SQLDepartamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLDepartamento.swift; sourceTree = "<group>"; };
+		E7310DD623F99D0700AE9CF1 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		E7310DD823F99F2A00AE9CF1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E7385ED6246A21DE0052113F /* Aseguradora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aseguradora.swift; sourceTree = "<group>"; };
+		E7385ED8246A229B0052113F /* SQLAseguradora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLAseguradora.swift; sourceTree = "<group>"; };
+		E7385EDC246A24880052113F /* HttpAseguradora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpAseguradora.swift; sourceTree = "<group>"; };
+		E7385EDE246A3D6C0052113F /* Cie10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cie10.swift; sourceTree = "<group>"; };
+		E7385EE0246A3DCC0052113F /* SQLCie10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLCie10.swift; sourceTree = "<group>"; };
+		E739B8A22486BECE00975F5E /* RegistroPacienteViewController4Anadir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPacienteViewController4Anadir.swift; sourceTree = "<group>"; };
+		E739B8A42486D14300975F5E /* FotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		E74254CB24A18BE800C8DEB1 /* HelpDesk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpDesk.swift; sourceTree = "<group>"; };
+		E74254CD24A1923500C8DEB1 /* SQLHelpDesk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLHelpDesk.swift; sourceTree = "<group>"; };
+		E74254CF24A1933400C8DEB1 /* DaoHelpDesk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoHelpDesk.swift; sourceTree = "<group>"; };
+		E74254D124A1940D00C8DEB1 /* HttpHelpDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHelpDesk.swift; sourceTree = "<group>"; };
+		E743BDF4248ED15500E1E0DE /* RegistroPacienteViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPacienteViewController5.swift; sourceTree = "<group>"; };
+		E7455DEC2485DA1100D609A0 /* RegistroPacienteViewController4Foto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPacienteViewController4Foto.swift; sourceTree = "<group>"; };
+		E749BB0924591EAE002701B1 /* FachadaIndepentientesHTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FachadaIndepentientesHTTP.swift; sourceTree = "<group>"; };
+		E749BB0B24591FDE002701B1 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		E74B436C245F9C0000608AD5 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		E74B436E245F9E2600608AD5 /* SQLUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLUsuario.swift; sourceTree = "<group>"; };
+		E74C5E7C24EF43050029C731 /* Adjunto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjunto.swift; sourceTree = "<group>"; };
+		E74CC550253FA2C5007DFF6A /* FormulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaViewController.swift; sourceTree = "<group>"; };
+		E74D6940253FB19100CFDD03 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E74D6942253FB4CE00CFDD03 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E74DA23F24D45F530053761E /* ControlMedicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlMedicoViewController.swift; sourceTree = "<group>"; };
+		E758152F2457B84900BEFEBB /* HttpCie10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpCie10.swift; sourceTree = "<group>"; };
+		E75815312457B87400BEFEBB /* HttpBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpBase.swift; sourceTree = "<group>"; };
+		E75815332457C67600BEFEBB /* HttpDepartamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpDepartamento.swift; sourceTree = "<group>"; };
+		E759B5A024E8D139001A0B74 /* ModalInformacionEstaticaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalInformacionEstaticaViewController.swift; sourceTree = "<group>"; };
+		E75C9C562481560F0056C9E1 /* RegistroPacienteViewController4Camara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPacienteViewController4Camara.swift; sourceTree = "<group>"; };
+		E75CA63B2442353F00C3CFFE /* FirmaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmaViewController.swift; sourceTree = "<group>"; };
+		E75CA6442442AE8900C3CFFE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		E75CA6452442AE8900C3CFFE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E75CA6482442B3EF00C3CFFE /* CreditosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditosViewController.swift; sourceTree = "<group>"; };
+		E75CA64A2442B48000C3CFFE /* AcercaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcercaViewController.swift; sourceTree = "<group>"; };
+		E75CA64C2442B85300C3CFFE /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		E75E97DC248F0814007653AB /* AnexosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnexosCollectionViewCell.swift; sourceTree = "<group>"; };
+		E767AEFE24A6600F007A1660 /* DetalleTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTicketViewController.swift; sourceTree = "<group>"; };
+		E7693D01242822890087FB2A /* Conexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conexion.swift; sourceTree = "<group>"; };
+		E76ACDC52468C714000ABF9F /* Constante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constante.swift; sourceTree = "<group>"; };
+		E76ACDC72468DE9D000ABF9F /* SQLConstante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLConstante.swift; sourceTree = "<group>"; };
+		E76ACDCB2468E544000ABF9F /* ConstanteValor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstanteValor.swift; sourceTree = "<group>"; };
+		E76ACDCD2468E7DC000ABF9F /* SQLConstanteValor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLConstanteValor.swift; sourceTree = "<group>"; };
+		E76ACDD12468EC90000ABF9F /* HttpConstante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpConstante.swift; sourceTree = "<group>"; };
+		E76BF7BE24AEA4FD00D472EC /* InternoImagenesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternoImagenesViewController.swift; sourceTree = "<group>"; };
+		E76BF7C024AEB66800D472EC /* InternoRespuestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternoRespuestaViewController.swift; sourceTree = "<group>"; };
+		E76BF7C224AEC91B00D472EC /* InternoHistorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternoHistorialViewController.swift; sourceTree = "<group>"; };
+		E76CC7A024C3CB820093C540 /* ExamenSolicitado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamenSolicitado.swift; sourceTree = "<group>"; };
+		E76CC7A224C3CC240093C540 /* SQLExamenSolicitado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLExamenSolicitado.swift; sourceTree = "<group>"; };
+		E76CC7A424C3CC7C0093C540 /* DaoExamenSolicitado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoExamenSolicitado.swift; sourceTree = "<group>"; };
+		E76CC7A624C3CCAC0093C540 /* Formula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formula.swift; sourceTree = "<group>"; };
+		E76CC7A824C3CDA60093C540 /* SQLFormula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLFormula.swift; sourceTree = "<group>"; };
+		E76CC7AA24C3CE000093C540 /* DaoFormula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoFormula.swift; sourceTree = "<group>"; };
+		E76CC7AC24C3CE860093C540 /* Mipres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mipres.swift; sourceTree = "<group>"; };
+		E76CC7AE24C3CECA0093C540 /* SQLMipres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLMipres.swift; sourceTree = "<group>"; };
+		E76CC7B024C3CF210093C540 /* DaoMipres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoMipres.swift; sourceTree = "<group>"; };
+		E76CC7B424C3CF660093C540 /* Requerimiento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requerimiento.swift; sourceTree = "<group>"; };
+		E76CC7B624C3D04E0093C540 /* SQLRequerimiento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLRequerimiento.swift; sourceTree = "<group>"; };
+		E76CC7B824C3D0C80093C540 /* DaoRequerimiento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoRequerimiento.swift; sourceTree = "<group>"; };
+		E76D682024997B9D005F30EB /* MemoriaRegistroPaciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriaRegistroPaciente.swift; sourceTree = "<group>"; };
+		E76D682224997BB2005F30EB /* MemoriaRegistroConsulta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriaRegistroConsulta.swift; sourceTree = "<group>"; };
+		E770862A24F2D7AD005B73EB /* ImagenAnexo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagenAnexo.swift; sourceTree = "<group>"; };
+		E770862C24F2DAB1005B73EB /* SQLImagenAnexo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLImagenAnexo.swift; sourceTree = "<group>"; };
+		E770862E24F2DB16005B73EB /* DaoImagenAnexo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoImagenAnexo.swift; sourceTree = "<group>"; };
+		E774752B24F3154A0041F75B /* ArchivosEnviar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosEnviar.swift; sourceTree = "<group>"; };
+		E774752D24F316240041F75B /* SQLArchivosEnviar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLArchivosEnviar.swift; sourceTree = "<group>"; };
+		E774752F24F319510041F75B /* DaoArchivosEnviar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaoArchivosEnviar.swift; sourceTree = "<group>"; };
+		E774753324F323E50041F75B /* HttpArchivosEnviar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpArchivosEnviar.swift; sourceTree = "<group>"; };
+		E7757BCE24A2CF630011BBD5 /* MesaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesaViewController.swift; sourceTree = "<group>"; };
+		E7757BD024A2E4D50011BBD5 /* ImagenDetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenDetalleViewController.swift; sourceTree = "<group>"; };
+		E7777EC524A3EE05004F6B58 /* FachadaHTTPDependientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FachadaHTTPDependientes.swift; sourceTree = "<group>"; };
+		E7777EC724A408AD004F6B58 /* FachadaDependientesSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FachadaDependientesSQL.swift; sourceTree = "<group>"; };
+		E7777EC924A40A1F004F6B58 /* Creditos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creditos.swift; sourceTree = "<group>"; };
+		E7777ECB24A40AAE004F6B58 /* SQLCreditos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLCreditos.swift; sourceTree = "<group>"; };
+		E7777ECD24A40D23004F6B58 /* DaoCreditos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaoCreditos.swift; sourceTree = "<group>"; };
+		E7777ECF24A40E29004F6B58 /* HttpCreditos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpCreditos.swift; sourceTree = "<group>"; };
+		E77B556124E9938300EF7955 /* VisorPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisorPDFViewController.swift; sourceTree = "<group>"; };
+		E77B556324E9987C00EF7955 /* que_es_telederma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = que_es_telederma.pdf; sourceTree = "<group>"; };
+		E77B556424E9987D00EF7955 /* instructivo_biopsia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = instructivo_biopsia.pdf; sourceTree = "<group>"; };
+		E77B556524E9987D00EF7955 /* toma_de_imagenes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = toma_de_imagenes.pdf; sourceTree = "<group>"; };
+		E77B556624E9987E00EF7955 /* manual_de_usuario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = manual_de_usuario.pdf; sourceTree = "<group>"; };
+		E77B556724E9987E00EF7955 /* semiologia_anexos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = semiologia_anexos.pdf; sourceTree = "<group>"; };
+		E77B556E24E9DCDE00EF7955 /* ManejoAPPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManejoAPPViewController.swift; sourceTree = "<group>"; };
+		E77B557124E9DE5900EF7955 /* tutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tutorial.mp4; sourceTree = "<group>"; };
+		E77B557224E9DE7400EF7955 /* biopsia_elipse.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = biopsia_elipse.mp4; sourceTree = "<group>"; };
+		E77B557324E9DE8C00EF7955 /* video_semiologia.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_semiologia.mp4; sourceTree = "<group>"; };
+		E77B557424E9DEAE00EF7955 /* biopsia_sacabocado.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = biopsia_sacabocado.mp4; sourceTree = "<group>"; };
+		E77B557924E9E2AD00EF7955 /* TomaBiopsiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomaBiopsiaViewController.swift; sourceTree = "<group>"; };
+		E77B557B24E9E67D00EF7955 /* SemiologiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiologiaViewController.swift; sourceTree = "<group>"; };
+		E77B557D24E9FF3300EF7955 /* SemiologiaDetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiologiaDetalleViewController.swift; sourceTree = "<group>"; };
+		E77CD39E252396DE005AEA26 /* CustomArchivarCompartirConsultaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomArchivarCompartirConsultaViewController.swift; sourceTree = "<group>"; };
+		E77CD3A02523D318005AEA26 /* CustomCompartirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCompartirViewController.swift; sourceTree = "<group>"; };
+		E783269A24AD3EC900BF5919 /* InternoHistoriaClinicaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternoHistoriaClinicaViewController.swift; sourceTree = "<group>"; };
+		E785D0AE2467629100C9A098 /* Paciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
+		E785D0B02467651400C9A098 /* SQLPaciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLPaciente.swift; sourceTree = "<group>"; };
+		E785D0B42467668300C9A098 /* HttpPaciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpPaciente.swift; sourceTree = "<group>"; };
+		E785D0B624676B6900C9A098 /* InformacionPaciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformacionPaciente.swift; sourceTree = "<group>"; };
+		E785D0B824676DE800C9A098 /* SQLInformacionPaciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLInformacionPaciente.swift; sourceTree = "<group>"; };
+		E78D2BCB24BA772F003BEDA7 /* ControlMedico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlMedico.swift; sourceTree = "<group>"; };
+		E78D2BCD24BA789E003BEDA7 /* Diagnostico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diagnostico.swift; sourceTree = "<group>"; };
+		E78D2BCF24BA7A1C003BEDA7 /* SQLControlMedico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLControlMedico.swift; sourceTree = "<group>"; };
+		E78D2BD124BA7AAB003BEDA7 /* SQLDiagnostico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLDiagnostico.swift; sourceTree = "<group>"; };
+		E78D2BD324BA7C97003BEDA7 /* DaoControlMedico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoControlMedico.swift; sourceTree = "<group>"; };
+		E78D2BD524BA7CAD003BEDA7 /* DaoDiagnostico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoDiagnostico.swift; sourceTree = "<group>"; };
+		E78D8A2024A56BF300166511 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		E78DB69D245FC445003B44DE /* HttpUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpUsuario.swift; sourceTree = "<group>"; };
+		E78E0C5224A8F25A007E5D4E /* ParteCuerpo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParteCuerpo.swift; sourceTree = "<group>"; };
+		E78E0C5424A8F3CA007E5D4E /* SQLParteCuerpo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLParteCuerpo.swift; sourceTree = "<group>"; };
+		E78E0C5624A8F46C007E5D4E /* DaoParteCuerpo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoParteCuerpo.swift; sourceTree = "<group>"; };
+		E78E0C5824A8F709007E5D4E /* HttpParteCuerpo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpParteCuerpo.swift; sourceTree = "<group>"; };
+		E78E0C5A24A9124B007E5D4E /* HttpConsultaMedica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpConsultaMedica.swift; sourceTree = "<group>"; };
+		E78E0C5E24A9604E007E5D4E /* ConsultaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaTableViewCell.swift; sourceTree = "<group>"; };
+		E78E516224AA96CA0040371B /* FilaInternaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilaInternaTableViewCell.swift; sourceTree = "<group>"; };
+		E78FEB7C249EED1700BC60E8 /* DaoPaciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoPaciente.swift; sourceTree = "<group>"; };
+		E78FEB84249EED1700BC60E8 /* DaoMunicipio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoMunicipio.swift; sourceTree = "<group>"; };
+		E78FEB8C249EED1700BC60E8 /* DaoInformacionPaciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoInformacionPaciente.swift; sourceTree = "<group>"; };
+		E78FEB8D249EED1700BC60E8 /* DaoUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoUsuario.swift; sourceTree = "<group>"; };
+		E78FEBBB249EEE1A00BC60E8 /* DaoDepartamento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoDepartamento.swift; sourceTree = "<group>"; };
+		E78FEBBD249EEE3200BC60E8 /* DaoConstante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoConstante.swift; sourceTree = "<group>"; };
+		E78FEBBF249EEE4100BC60E8 /* DaoConstanteValor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoConstanteValor.swift; sourceTree = "<group>"; };
+		E78FEBC1249EEE5100BC60E8 /* DaoAseguradora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoAseguradora.swift; sourceTree = "<group>"; };
+		E78FEBC3249EEE6600BC60E8 /* DaoCie10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoCie10.swift; sourceTree = "<group>"; };
+		E790C87B24C5F28A00C810A4 /* InformacionPacienteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacionPacienteViewController.swift; sourceTree = "<group>"; };
+		E79AB2C624A55EC3004723BD /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		E79EA25724EB0844003DFEAB /* CertificacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificacionViewController.swift; sourceTree = "<group>"; };
+		E79FFCFD2520F0430029044B /* CustomRequerimientoDescartarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRequerimientoDescartarViewController.swift; sourceTree = "<group>"; };
+		E79FFCFF252107AD0029044B /* HttpRequerimiento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequerimiento.swift; sourceTree = "<group>"; };
+		E79FFD01252121650029044B /* CustomRequerimientoResolverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRequerimientoResolverViewController.swift; sourceTree = "<group>"; };
+		E7AAFD35244D1E070087FEAC /* AprendeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeViewController.swift; sourceTree = "<group>"; };
+		E7B427C524B7CCD3009B7C07 /* ImagenLesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagenLesion.swift; sourceTree = "<group>"; };
+		E7B427C624B7CCD3009B7C07 /* Lesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesion.swift; sourceTree = "<group>"; };
+		E7B427C924B7CE2F009B7C07 /* SQLImagenLesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLImagenLesion.swift; sourceTree = "<group>"; };
+		E7B427CA24B7CE2F009B7C07 /* SQLLesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLLesion.swift; sourceTree = "<group>"; };
+		E7B427CD24B7CF94009B7C07 /* DaoLesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoLesion.swift; sourceTree = "<group>"; };
+		E7B427CE24B7CF94009B7C07 /* DaoImagenLesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoImagenLesion.swift; sourceTree = "<group>"; };
+		E7B427D124B8099E009B7C07 /* ImagenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenCollectionViewCell.swift; sourceTree = "<group>"; };
+		E7B47B1B23F4C36300997278 /* Telederma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telederma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B47B1E23F4C36300997278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7B47B2023F4C36300997278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7B47B2523F4C36300997278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7B47B2723F4C36800997278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7B47B2A23F4C36800997278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7B47B2C23F4C36800997278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B6B649246388CD000F6ADC /* Mensajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensajes.swift; sourceTree = "<group>"; };
+		E7BB6F19249EDB48008350E0 /* ConsultaMedica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultaMedica.swift; sourceTree = "<group>"; };
+		E7BB6F1B249EE852008350E0 /* SQLConsultaMedica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLConsultaMedica.swift; sourceTree = "<group>"; };
+		E7BBC26E24437B67009EFBF0 /* ConsultaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaViewController.swift; sourceTree = "<group>"; };
+		E7BBC27024437C62009EFBF0 /* PacienteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacienteViewController.swift; sourceTree = "<group>"; };
+		E7BBC27224437E71009EFBF0 /* HistoriaClinicaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriaClinicaViewController.swift; sourceTree = "<group>"; };
+		E7BBC27424438009009EFBF0 /* RegistroPacienteViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPacienteViewController1.swift; sourceTree = "<group>"; };
+		E7BBC27624438F04009EFBF0 /* RegistroPacienteViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPacienteViewController2.swift; sourceTree = "<group>"; };
+		E7BBC2782443A854009EFBF0 /* RegistroPacienteViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPacienteViewController3.swift; sourceTree = "<group>"; };
+		E7C7FF2C2419321100885189 /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
+		E7C7FF34241934DB00885189 /* ModeloBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloBase.swift; sourceTree = "<group>"; };
+		E7D6A37D24EE00EB00B0EA65 /* HttpControlMedico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpControlMedico.swift; sourceTree = "<group>"; };
+		E7DE354F24807BFA00D18B86 /* RegistroPacienteViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPacienteViewController4.swift; sourceTree = "<group>"; };
+		E7E1B70424201DC90043BEE9 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		E7E1B70624201E8E0043BEE9 /* OlvideContraseniaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlvideContraseniaViewController.swift; sourceTree = "<group>"; };
+		E7E1B7082420269C0043BEE9 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		E7E758E4245CCB4800AA903F /* Municipio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Municipio.swift; sourceTree = "<group>"; };
+		E7E758E6245CCD3B00AA903F /* SQLMunicipio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLMunicipio.swift; sourceTree = "<group>"; };
+		E7E758EA245CD10200AA903F /* Funcionales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcionales.swift; sourceTree = "<group>"; };
+		E7EAD38924918A1A00ED2A7B /* RegistroPacienteTerminacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPacienteTerminacionViewController.swift; sourceTree = "<group>"; };
+		E7F824DA24C7B91B00236C28 /* ImagenHistoriaClinicaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenHistoriaClinicaViewController.swift; sourceTree = "<group>"; };
+		E7FC3C16249FA38800B45232 /* DaoConsultaMedica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoConsultaMedica.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7B47B1823F4C36300997278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74D6943253FB4CE00CFDD03 /* WebKit.framework in Frameworks */,
+				E7217EC72418A09500EA5B7A /* Pods_Telederma.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78E29A5A3D92ACF3CFCABCDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1A4F9731F1098A6649269CD /* Pods-Telederma.debug.xcconfig */,
+				B89FE90C8A2FC34D1F00289F /* Pods-Telederma.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4E8BD660EF4DEB656DCE299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E74D6942253FB4CE00CFDD03 /* WebKit.framework */,
+				E7217EC32418A08300EA5B7A /* SideMenu.framework */,
+				E7217EBF24189F1C00EA5B7A /* SideMenu.framework */,
+				E7217EB924189ED200EA5B7A /* SideMenu.framework */,
+				8346298457F8CC111744C1EE /* Pods_Telederma.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E726E478243E821D00E7F8A3 /* FachadasSQL */ = {
+			isa = PBXGroup;
+			children = (
+				E726E479243E826D00E7F8A3 /* FachadaIndependientesSQL.swift */,
+				E7777EC724A408AD004F6B58 /* FachadaDependientesSQL.swift */,
+			);
+			path = FachadasSQL;
+			sourceTree = "<group>";
+		};
+		E749BB0824591E80002701B1 /* FachadasHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				E749BB0924591EAE002701B1 /* FachadaIndepentientesHTTP.swift */,
+				E7777EC524A3EE05004F6B58 /* FachadaHTTPDependientes.swift */,
+			);
+			path = FachadasHTTP;
+			sourceTree = "<group>";
+		};
+		E750247D23F83BE1007AF628 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				E7310DD623F99D0700AE9CF1 /* LaunchViewController.swift */,
+				E71D83732481B5F800390846 /* MenuViewController.swift */,
+				E7310DD823F99F2A00AE9CF1 /* LoginViewController.swift */,
+				E7E1B70624201E8E0043BEE9 /* OlvideContraseniaViewController.swift */,
+				E7E1B7082420269C0043BEE9 /* RegistroViewController.swift */,
+				E75CA63B2442353F00C3CFFE /* FirmaViewController.swift */,
+				E75CA6482442B3EF00C3CFFE /* CreditosViewController.swift */,
+				E75CA64A2442B48000C3CFFE /* AcercaViewController.swift */,
+				E759B5A024E8D139001A0B74 /* ModalInformacionEstaticaViewController.swift */,
+				E75CA64C2442B85300C3CFFE /* PerfilViewController.swift */,
+				E7BBC26E24437B67009EFBF0 /* ConsultaViewController.swift */,
+				E7BBC27024437C62009EFBF0 /* PacienteViewController.swift */,
+				E7BBC27224437E71009EFBF0 /* HistoriaClinicaViewController.swift */,
+				E74DA23F24D45F530053761E /* ControlMedicoViewController.swift */,
+				E790C87B24C5F28A00C810A4 /* InformacionPacienteViewController.swift */,
+				E783269A24AD3EC900BF5919 /* InternoHistoriaClinicaViewController.swift */,
+				E76BF7BE24AEA4FD00D472EC /* InternoImagenesViewController.swift */,
+				E7F824DA24C7B91B00236C28 /* ImagenHistoriaClinicaViewController.swift */,
+				E76BF7C024AEB66800D472EC /* InternoRespuestaViewController.swift */,
+				E76BF7C224AEC91B00D472EC /* InternoHistorialViewController.swift */,
+				E7BBC27424438009009EFBF0 /* RegistroPacienteViewController1.swift */,
+				E7BBC27624438F04009EFBF0 /* RegistroPacienteViewController2.swift */,
+				E7BBC2782443A854009EFBF0 /* RegistroPacienteViewController3.swift */,
+				E7DE354F24807BFA00D18B86 /* RegistroPacienteViewController4.swift */,
+				E75C9C562481560F0056C9E1 /* RegistroPacienteViewController4Camara.swift */,
+				E7455DEC2485DA1100D609A0 /* RegistroPacienteViewController4Foto.swift */,
+				E739B8A22486BECE00975F5E /* RegistroPacienteViewController4Anadir.swift */,
+				E743BDF4248ED15500E1E0DE /* RegistroPacienteViewController5.swift */,
+				E7EAD38924918A1A00ED2A7B /* RegistroPacienteTerminacionViewController.swift */,
+				E7757BCE24A2CF630011BBD5 /* MesaViewController.swift */,
+				E718AC4F24A26DC200FEC80F /* HelpDeskViewController.swift */,
+				E79AB2C624A55EC3004723BD /* TicketsViewController.swift */,
+				E767AEFE24A6600F007A1660 /* DetalleTicketViewController.swift */,
+				E7757BD024A2E4D50011BBD5 /* ImagenDetalleViewController.swift */,
+				E7188C0D244694A600832EB6 /* WalletViewController.swift */,
+				E7188C0B24467BA400832EB6 /* GestionViewController.swift */,
+				E7AAFD35244D1E070087FEAC /* AprendeViewController.swift */,
+				E77B556124E9938300EF7955 /* VisorPDFViewController.swift */,
+				E77B556E24E9DCDE00EF7955 /* ManejoAPPViewController.swift */,
+				E77B557924E9E2AD00EF7955 /* TomaBiopsiaViewController.swift */,
+				E77B557B24E9E67D00EF7955 /* SemiologiaViewController.swift */,
+				E77B557D24E9FF3300EF7955 /* SemiologiaDetalleViewController.swift */,
+				E79EA25724EB0844003DFEAB /* CertificacionViewController.swift */,
+				E79FFCFD2520F0430029044B /* CustomRequerimientoDescartarViewController.swift */,
+				E79FFD01252121650029044B /* CustomRequerimientoResolverViewController.swift */,
+				E77CD39E252396DE005AEA26 /* CustomArchivarCompartirConsultaViewController.swift */,
+				E77CD3A02523D318005AEA26 /* CustomCompartirViewController.swift */,
+				E74CC550253FA2C5007DFF6A /* FormulaViewController.swift */,
+				E74D6940253FB19100CFDD03 /* WebViewController.swift */,
+			);
+			path = Controladores;
+			sourceTree = "<group>";
+		};
+		E750247E23F83BFA007AF628 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7FF34241934DB00885189 /* ModeloBase.swift */,
+				E7C7FF2C2419321100885189 /* Departamento.swift */,
+				E7E758E4245CCB4800AA903F /* Municipio.swift */,
+				E74B436C245F9C0000608AD5 /* Usuario.swift */,
+				E76ACDC52468C714000ABF9F /* Constante.swift */,
+				E76ACDCB2468E544000ABF9F /* ConstanteValor.swift */,
+				E7385ED6246A21DE0052113F /* Aseguradora.swift */,
+				E7385EDE246A3D6C0052113F /* Cie10.swift */,
+				E785D0AE2467629100C9A098 /* Paciente.swift */,
+				E785D0B624676B6900C9A098 /* InformacionPaciente.swift */,
+				E7BB6F19249EDB48008350E0 /* ConsultaMedica.swift */,
+				E74254CB24A18BE800C8DEB1 /* HelpDesk.swift */,
+				E7777EC924A40A1F004F6B58 /* Creditos.swift */,
+				E78E0C5224A8F25A007E5D4E /* ParteCuerpo.swift */,
+				E7B427C624B7CCD3009B7C07 /* Lesion.swift */,
+				E7B427C524B7CCD3009B7C07 /* ImagenLesion.swift */,
+				E78D2BCB24BA772F003BEDA7 /* ControlMedico.swift */,
+				E78D2BCD24BA789E003BEDA7 /* Diagnostico.swift */,
+				E72A429624BD1BDB00A51F1D /* RespuestaEspecialista.swift */,
+				E72A429C24BD207600A51F1D /* Especialista.swift */,
+				E76CC7A024C3CB820093C540 /* ExamenSolicitado.swift */,
+				E76CC7A624C3CCAC0093C540 /* Formula.swift */,
+				E76CC7AC24C3CE860093C540 /* Mipres.swift */,
+				E76CC7B424C3CF660093C540 /* Requerimiento.swift */,
+				E74C5E7C24EF43050029C731 /* Adjunto.swift */,
+				E770862A24F2D7AD005B73EB /* ImagenAnexo.swift */,
+				E774752B24F3154A0041F75B /* ArchivosEnviar.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		E76D681F24997B35005F30EB /* Memoria */ = {
+			isa = PBXGroup;
+			children = (
+				E721293224B5296900371DA0 /* MemoriaHistoriaClinica.swift */,
+				E76D682024997B9D005F30EB /* MemoriaRegistroPaciente.swift */,
+				E76D682224997BB2005F30EB /* MemoriaRegistroConsulta.swift */,
+			);
+			path = Memoria;
+			sourceTree = "<group>";
+		};
+		E77B556D24E998A900EF7955 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				E77B556424E9987D00EF7955 /* instructivo_biopsia.pdf */,
+				E77B556624E9987E00EF7955 /* manual_de_usuario.pdf */,
+				E77B556324E9987C00EF7955 /* que_es_telederma.pdf */,
+				E77B556724E9987E00EF7955 /* semiologia_anexos.pdf */,
+				E77B556524E9987D00EF7955 /* toma_de_imagenes.pdf */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		E77B557024E9DE2900EF7955 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				E77B557224E9DE7400EF7955 /* biopsia_elipse.mp4 */,
+				E77B557424E9DEAE00EF7955 /* biopsia_sacabocado.mp4 */,
+				E77B557124E9DE5900EF7955 /* tutorial.mp4 */,
+				E77B557324E9DE8C00EF7955 /* video_semiologia.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		E7B47B1223F4C36300997278 = {
+			isa = PBXGroup;
+			children = (
+				E7B47B1D23F4C36300997278 /* Telederma */,
+				E7B47B1C23F4C36300997278 /* Products */,
+				78E29A5A3D92ACF3CFCABCDE /* Pods */,
+				C4E8BD660EF4DEB656DCE299 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B47B1C23F4C36300997278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7B47B1B23F4C36300997278 /* Telederma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B47B1D23F4C36300997278 /* Telederma */ = {
+			isa = PBXGroup;
+			children = (
+				E77B557024E9DE2900EF7955 /* Video */,
+				E77B556D24E998A900EF7955 /* PDF */,
+				E7C7FF232419283C00885189 /* Generales */,
+				E7C7FF222419282B00885189 /* Helpers */,
+				E7C7FF212419280D00885189 /* Personzalizados */,
+				E7C7FF20241927F800885189 /* Protocolos */,
+				E750247E23F83BFA007AF628 /* Modelos */,
+				E7C7FF1F241927EB00885189 /* Sql */,
+				E7C7FF1C241927BF00885189 /* Daos */,
+				E7C7FF1E241927E100885189 /* Http */,
+				E726E478243E821D00E7F8A3 /* FachadasSQL */,
+				E749BB0824591E80002701B1 /* FachadasHTTP */,
+				E76D681F24997B35005F30EB /* Memoria */,
+				E750247D23F83BE1007AF628 /* Controladores */,
+				E7B47B1E23F4C36300997278 /* AppDelegate.swift */,
+				E7B47B2023F4C36300997278 /* SceneDelegate.swift */,
+				E7B47B2423F4C36300997278 /* Main.storyboard */,
+				E7B47B2723F4C36800997278 /* Assets.xcassets */,
+				E7B47B2923F4C36800997278 /* LaunchScreen.storyboard */,
+				E7B47B2C23F4C36800997278 /* Info.plist */,
+			);
+			path = Telederma;
+			sourceTree = "<group>";
+		};
+		E7C7FF1C241927BF00885189 /* Daos */ = {
+			isa = PBXGroup;
+			children = (
+				E78FEBBB249EEE1A00BC60E8 /* DaoDepartamento.swift */,
+				E78FEB84249EED1700BC60E8 /* DaoMunicipio.swift */,
+				E78FEBBD249EEE3200BC60E8 /* DaoConstante.swift */,
+				E78FEBBF249EEE4100BC60E8 /* DaoConstanteValor.swift */,
+				E78FEBC1249EEE5100BC60E8 /* DaoAseguradora.swift */,
+				E78FEBC3249EEE6600BC60E8 /* DaoCie10.swift */,
+				E78FEB8D249EED1700BC60E8 /* DaoUsuario.swift */,
+				E78FEB7C249EED1700BC60E8 /* DaoPaciente.swift */,
+				E78FEB8C249EED1700BC60E8 /* DaoInformacionPaciente.swift */,
+				E7FC3C16249FA38800B45232 /* DaoConsultaMedica.swift */,
+				E74254CF24A1933400C8DEB1 /* DaoHelpDesk.swift */,
+				E7777ECD24A40D23004F6B58 /* DaoCreditos.swift */,
+				E78E0C5624A8F46C007E5D4E /* DaoParteCuerpo.swift */,
+				E7B427CD24B7CF94009B7C07 /* DaoLesion.swift */,
+				E7B427CE24B7CF94009B7C07 /* DaoImagenLesion.swift */,
+				E78D2BD324BA7C97003BEDA7 /* DaoControlMedico.swift */,
+				E78D2BD524BA7CAD003BEDA7 /* DaoDiagnostico.swift */,
+				E72A429A24BD1D1400A51F1D /* DaoRespuestaEspecialista.swift */,
+				E72A42A024BD21C700A51F1D /* DaoEspecialista.swift */,
+				E76CC7A424C3CC7C0093C540 /* DaoExamenSolicitado.swift */,
+				E76CC7AA24C3CE000093C540 /* DaoFormula.swift */,
+				E76CC7B024C3CF210093C540 /* DaoMipres.swift */,
+				E76CC7B824C3D0C80093C540 /* DaoRequerimiento.swift */,
+				E770862E24F2DB16005B73EB /* DaoImagenAnexo.swift */,
+				E774752F24F319510041F75B /* DaoArchivosEnviar.swift */,
+			);
+			path = Daos;
+			sourceTree = "<group>";
+		};
+		E7C7FF1E241927E100885189 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				E75815312457B87400BEFEBB /* HttpBase.swift */,
+				E75815332457C67600BEFEBB /* HttpDepartamento.swift */,
+				E78DB69D245FC445003B44DE /* HttpUsuario.swift */,
+				E76ACDD12468EC90000ABF9F /* HttpConstante.swift */,
+				E7385EDC246A24880052113F /* HttpAseguradora.swift */,
+				E758152F2457B84900BEFEBB /* HttpCie10.swift */,
+				E785D0B42467668300C9A098 /* HttpPaciente.swift */,
+				E78E0C5A24A9124B007E5D4E /* HttpConsultaMedica.swift */,
+				E74254D124A1940D00C8DEB1 /* HttpHelpDesk.swift */,
+				E7777ECF24A40E29004F6B58 /* HttpCreditos.swift */,
+				E78E0C5824A8F709007E5D4E /* HttpParteCuerpo.swift */,
+				E7D6A37D24EE00EB00B0EA65 /* HttpControlMedico.swift */,
+				E774753324F323E50041F75B /* HttpArchivosEnviar.swift */,
+				E79FFCFF252107AD0029044B /* HttpRequerimiento.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		E7C7FF1F241927EB00885189 /* Sql */ = {
+			isa = PBXGroup;
+			children = (
+				E7693D01242822890087FB2A /* Conexion.swift */,
+				E72C880924291C0000EE97A8 /* SQLBase.swift */,
+				E72C880F2429689000EE97A8 /* SQLDepartamento.swift */,
+				E7E758E6245CCD3B00AA903F /* SQLMunicipio.swift */,
+				E74B436E245F9E2600608AD5 /* SQLUsuario.swift */,
+				E76ACDC72468DE9D000ABF9F /* SQLConstante.swift */,
+				E76ACDCD2468E7DC000ABF9F /* SQLConstanteValor.swift */,
+				E7385ED8246A229B0052113F /* SQLAseguradora.swift */,
+				E7385EE0246A3DCC0052113F /* SQLCie10.swift */,
+				E785D0B02467651400C9A098 /* SQLPaciente.swift */,
+				E785D0B824676DE800C9A098 /* SQLInformacionPaciente.swift */,
+				E7BB6F1B249EE852008350E0 /* SQLConsultaMedica.swift */,
+				E74254CD24A1923500C8DEB1 /* SQLHelpDesk.swift */,
+				E7777ECB24A40AAE004F6B58 /* SQLCreditos.swift */,
+				E78E0C5424A8F3CA007E5D4E /* SQLParteCuerpo.swift */,
+				E7B427CA24B7CE2F009B7C07 /* SQLLesion.swift */,
+				E7B427C924B7CE2F009B7C07 /* SQLImagenLesion.swift */,
+				E78D2BCF24BA7A1C003BEDA7 /* SQLControlMedico.swift */,
+				E78D2BD124BA7AAB003BEDA7 /* SQLDiagnostico.swift */,
+				E72A429824BD1C9A00A51F1D /* SQLRespuestaEspecialista.swift */,
+				E72A429E24BD216900A51F1D /* SQLEspecialista.swift */,
+				E76CC7A224C3CC240093C540 /* SQLExamenSolicitado.swift */,
+				E76CC7A824C3CDA60093C540 /* SQLFormula.swift */,
+				E76CC7AE24C3CECA0093C540 /* SQLMipres.swift */,
+				E76CC7B624C3D04E0093C540 /* SQLRequerimiento.swift */,
+				E770862C24F2DAB1005B73EB /* SQLImagenAnexo.swift */,
+				E774752D24F316240041F75B /* SQLArchivosEnviar.swift */,
+			);
+			path = Sql;
+			sourceTree = "<group>";
+		};
+		E7C7FF20241927F800885189 /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocolos;
+			sourceTree = "<group>";
+		};
+		E7C7FF212419280D00885189 /* Personzalizados */ = {
+			isa = PBXGroup;
+			children = (
+				E739B8A42486D14300975F5E /* FotosCollectionViewCell.swift */,
+				E75E97DC248F0814007653AB /* AnexosCollectionViewCell.swift */,
+				E78D8A2024A56BF300166511 /* TicketTableViewCell.swift */,
+				E78E0C5E24A9604E007E5D4E /* ConsultaTableViewCell.swift */,
+				E78E516224AA96CA0040371B /* FilaInternaTableViewCell.swift */,
+				E7B427D124B8099E009B7C07 /* ImagenCollectionViewCell.swift */,
+				E71EBED62522D0B700AA1860 /* CustomLongPress.swift */,
+			);
+			path = Personzalizados;
+			sourceTree = "<group>";
+		};
+		E7C7FF222419282B00885189 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E7E758EA245CD10200AA903F /* Funcionales.swift */,
+				E7245F052456642B00CBF4F4 /* Gestos.swift */,
+				E7245F0324565A4100CBF4F4 /* Validacion.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E7C7FF232419283C00885189 /* Generales */ = {
+			isa = PBXGroup;
+			children = (
+				E7E1B70424201DC90043BEE9 /* Constantes.swift */,
+				E749BB0B24591FDE002701B1 /* NetworkError.swift */,
+				E7B6B649246388CD000F6ADC /* Mensajes.swift */,
+			);
+			path = Generales;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7B47B1A23F4C36300997278 /* Telederma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B47B2F23F4C36800997278 /* Build configuration list for PBXNativeTarget "Telederma" */;
+			buildPhases = (
+				C4F4BE03777FDC16EADF41EB /* [CP] Check Pods Manifest.lock */,
+				E7B47B1723F4C36300997278 /* Sources */,
+				E7B47B1823F4C36300997278 /* Frameworks */,
+				E7B47B1923F4C36300997278 /* Resources */,
+				C92014FDE2A6BD90294FF254 /* [CP] Embed Pods Frameworks */,
+				E7217EC92418A09500EA5B7A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telederma;
+			productName = Telederma;
+			productReference = E7B47B1B23F4C36300997278 /* Telederma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7B47B1323F4C36300997278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Pedro Erazo Acosta";
+				TargetAttributes = {
+					E7B47B1A23F4C36300997278 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E7B47B1623F4C36300997278 /* Build configuration list for PBXProject "Telederma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = E7B47B1223F4C36300997278;
+			productRefGroup = E7B47B1C23F4C36300997278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B47B1A23F4C36300997278 /* Telederma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7B47B1923F4C36300997278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77B556824E9987E00EF7955 /* que_es_telederma.pdf in Resources */,
+				E7B47B2B23F4C36800997278 /* LaunchScreen.storyboard in Resources */,
+				E77B557524E9DEAE00EF7955 /* tutorial.mp4 in Resources */,
+				E77B557824E9DEAE00EF7955 /* biopsia_sacabocado.mp4 in Resources */,
+				E7B47B2823F4C36800997278 /* Assets.xcassets in Resources */,
+				E77B556C24E9987E00EF7955 /* semiologia_anexos.pdf in Resources */,
+				E77B556B24E9987E00EF7955 /* manual_de_usuario.pdf in Resources */,
+				E77B556A24E9987E00EF7955 /* toma_de_imagenes.pdf in Resources */,
+				E77B557724E9DEAE00EF7955 /* video_semiologia.mp4 in Resources */,
+				E7B47B2623F4C36300997278 /* Main.storyboard in Resources */,
+				E77B556924E9987E00EF7955 /* instructivo_biopsia.pdf in Resources */,
+				E77B557624E9DEAE00EF7955 /* biopsia_elipse.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4F4BE03777FDC16EADF41EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telederma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92014FDE2A6BD90294FF254 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Telederma/Pods-Telederma-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImageWebPCoder/SDWebImageWebPCoder.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+				"${BUILT_PRODUCTS_DIR}/UberSignature/UberSignature.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImageWebPCoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UberSignature.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telederma/Pods-Telederma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7B47B1723F4C36300997278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72C880A24291C0000EE97A8 /* SQLBase.swift in Sources */,
+				E77B556224E9938300EF7955 /* VisorPDFViewController.swift in Sources */,
+				E78D2BD424BA7C97003BEDA7 /* DaoControlMedico.swift in Sources */,
+				E79EA25824EB0844003DFEAB /* CertificacionViewController.swift in Sources */,
+				E7BBC2792443A854009EFBF0 /* RegistroPacienteViewController3.swift in Sources */,
+				E74DA24024D45F530053761E /* ControlMedicoViewController.swift in Sources */,
+				E759B5A124E8D139001A0B74 /* ModalInformacionEstaticaViewController.swift in Sources */,
+				E7455DED2485DA1100D609A0 /* RegistroPacienteViewController4Foto.swift in Sources */,
+				E774752E24F316240041F75B /* SQLArchivosEnviar.swift in Sources */,
+				E76BF7BF24AEA4FD00D472EC /* InternoImagenesViewController.swift in Sources */,
+				E78FEBA4249EED1700BC60E8 /* DaoMunicipio.swift in Sources */,
+				E75CA63C2442353F00C3CFFE /* FirmaViewController.swift in Sources */,
+				E72A429F24BD216900A51F1D /* SQLEspecialista.swift in Sources */,
+				E76ACDC82468DE9D000ABF9F /* SQLConstante.swift in Sources */,
+				E7BBC26F24437B67009EFBF0 /* ConsultaViewController.swift in Sources */,
+				E770862D24F2DAB1005B73EB /* SQLImagenAnexo.swift in Sources */,
+				E76CC7B724C3D04E0093C540 /* SQLRequerimiento.swift in Sources */,
+				E78E0C5324A8F25A007E5D4E /* ParteCuerpo.swift in Sources */,
+				E78FEBBE249EEE3200BC60E8 /* DaoConstante.swift in Sources */,
+				E74254CC24A18BE900C8DEB1 /* HelpDesk.swift in Sources */,
+				E7B47B1F23F4C36300997278 /* AppDelegate.swift in Sources */,
+				E7B427CC24B7CE2F009B7C07 /* SQLLesion.swift in Sources */,
+				E767AEFF24A6600F007A1660 /* DetalleTicketViewController.swift in Sources */,
+				E72A42A124BD21C700A51F1D /* DaoEspecialista.swift in Sources */,
+				E7385ED7246A21DE0052113F /* Aseguradora.swift in Sources */,
+				E74C5E7D24EF43050029C731 /* Adjunto.swift in Sources */,
+				E7B427D024B7CF94009B7C07 /* DaoImagenLesion.swift in Sources */,
+				E7E1B70724201E8E0043BEE9 /* OlvideContraseniaViewController.swift in Sources */,
+				E7188C0C24467BA400832EB6 /* GestionViewController.swift in Sources */,
+				E78E516324AA96CA0040371B /* FilaInternaTableViewCell.swift in Sources */,
+				E78D2BD624BA7CAD003BEDA7 /* DaoDiagnostico.swift in Sources */,
+				E718AC5024A26DC200FEC80F /* HelpDeskViewController.swift in Sources */,
+				E76CC7B924C3D0C80093C540 /* DaoRequerimiento.swift in Sources */,
+				E78E0C5724A8F46C007E5D4E /* DaoParteCuerpo.swift in Sources */,
+				E74254D024A1933400C8DEB1 /* DaoHelpDesk.swift in Sources */,
+				E74B436D245F9C0100608AD5 /* Usuario.swift in Sources */,
+				E71D83742481B5F800390846 /* MenuViewController.swift in Sources */,
+				E78FEBC0249EEE4100BC60E8 /* DaoConstanteValor.swift in Sources */,
+				E77CD39F252396DE005AEA26 /* CustomArchivarCompartirConsultaViewController.swift in Sources */,
+				E7385EE1246A3DCD0052113F /* SQLCie10.swift in Sources */,
+				E7BBC27724438F04009EFBF0 /* RegistroPacienteViewController2.swift in Sources */,
+				E76D682124997B9D005F30EB /* MemoriaRegistroPaciente.swift in Sources */,
+				E76ACDCE2468E7DC000ABF9F /* SQLConstanteValor.swift in Sources */,
+				E7B47B2123F4C36300997278 /* SceneDelegate.swift in Sources */,
+				E774753024F319510041F75B /* DaoArchivosEnviar.swift in Sources */,
+				E7C7FF2D2419321100885189 /* Departamento.swift in Sources */,
+				E7E758E7245CCD3B00AA903F /* SQLMunicipio.swift in Sources */,
+				E7E758EB245CD10200AA903F /* Funcionales.swift in Sources */,
+				E7385EDF246A3D6C0052113F /* Cie10.swift in Sources */,
+				E76CC7A724C3CCAC0093C540 /* Formula.swift in Sources */,
+				E76CC7AD24C3CE860093C540 /* Mipres.swift in Sources */,
+				E76ACDD22468EC90000ABF9F /* HttpConstante.swift in Sources */,
+				E7385EDD246A24880052113F /* HttpAseguradora.swift in Sources */,
+				E783269B24AD3EC900BF5919 /* InternoHistoriaClinicaViewController.swift in Sources */,
+				E739B8A52486D14300975F5E /* FotosCollectionViewCell.swift in Sources */,
+				E78D8A2124A56BF300166511 /* TicketTableViewCell.swift in Sources */,
+				E7777EC824A408AD004F6B58 /* FachadaDependientesSQL.swift in Sources */,
+				E75E97DD248F0814007653AB /* AnexosCollectionViewCell.swift in Sources */,
+				E7E1B70524201DC90043BEE9 /* Constantes.swift in Sources */,
+				E77B556F24E9DCDE00EF7955 /* ManejoAPPViewController.swift in Sources */,
+				E7EAD38A24918A1A00ED2A7B /* RegistroPacienteTerminacionViewController.swift in Sources */,
+				E77B557E24E9FF3300EF7955 /* SemiologiaDetalleViewController.swift in Sources */,
+				E785D0B724676B6900C9A098 /* InformacionPaciente.swift in Sources */,
+				E774752C24F3154A0041F75B /* ArchivosEnviar.swift in Sources */,
+				E78D2BCC24BA7730003BEDA7 /* ControlMedico.swift in Sources */,
+				E743BDF5248ED15500E1E0DE /* RegistroPacienteViewController5.swift in Sources */,
+				E7BB6F1C249EE852008350E0 /* SQLConsultaMedica.swift in Sources */,
+				E770862F24F2DB16005B73EB /* DaoImagenAnexo.swift in Sources */,
+				E72A429724BD1BDB00A51F1D /* RespuestaEspecialista.swift in Sources */,
+				E7B6B64A246388CD000F6ADC /* Mensajes.swift in Sources */,
+				E749BB0A24591EAE002701B1 /* FachadaIndepentientesHTTP.swift in Sources */,
+				E7D6A37E24EE00EB00B0EA65 /* HttpControlMedico.swift in Sources */,
+				E7FC3C17249FA38800B45232 /* DaoConsultaMedica.swift in Sources */,
+				E7777ECC24A40AAE004F6B58 /* SQLCreditos.swift in Sources */,
+				E7245F062456642B00CBF4F4 /* Gestos.swift in Sources */,
+				E7777EC624A3EE05004F6B58 /* FachadaHTTPDependientes.swift in Sources */,
+				E7B427CB24B7CE2F009B7C07 /* SQLImagenLesion.swift in Sources */,
+				E7777ECA24A40A1F004F6B58 /* Creditos.swift in Sources */,
+				E76CC7A924C3CDA60093C540 /* SQLFormula.swift in Sources */,
+				E76CC7A124C3CB820093C540 /* ExamenSolicitado.swift in Sources */,
+				E7BBC27124437C62009EFBF0 /* PacienteViewController.swift in Sources */,
+				E75815322457B87400BEFEBB /* HttpBase.swift in Sources */,
+				E76CC7AF24C3CECA0093C540 /* SQLMipres.swift in Sources */,
+				E72A429B24BD1D1400A51F1D /* DaoRespuestaEspecialista.swift in Sources */,
+				E76CC7B524C3CF660093C540 /* Requerimiento.swift in Sources */,
+				E7777ECE24A40D23004F6B58 /* DaoCreditos.swift in Sources */,
+				E72A429924BD1C9A00A51F1D /* SQLRespuestaEspecialista.swift in Sources */,
+				E75815302457B84900BEFEBB /* HttpCie10.swift in Sources */,
+				E774753424F323E50041F75B /* HttpArchivosEnviar.swift in Sources */,
+				E78FEBBC249EEE1A00BC60E8 /* DaoDepartamento.swift in Sources */,
+				E7310DD923F99F2A00AE9CF1 /* LoginViewController.swift in Sources */,
+				E75CA64B2442B48000C3CFFE /* AcercaViewController.swift in Sources */,
+				E79AB2C724A55EC3004723BD /* TicketsViewController.swift in Sources */,
+				E78E0C5924A8F709007E5D4E /* HttpParteCuerpo.swift in Sources */,
+				E739B8A32486BECE00975F5E /* RegistroPacienteViewController4Anadir.swift in Sources */,
+				E770862B24F2D7AD005B73EB /* ImagenAnexo.swift in Sources */,
+				E74CC551253FA2C5007DFF6A /* FormulaViewController.swift in Sources */,
+				E76CC7AB24C3CE000093C540 /* DaoFormula.swift in Sources */,
+				E78DB69E245FC445003B44DE /* HttpUsuario.swift in Sources */,
+				E7DE355024807BFA00D18B86 /* RegistroPacienteViewController4.swift in Sources */,
+				E75815342457C67600BEFEBB /* HttpDepartamento.swift in Sources */,
+				E75CA64D2442B85300C3CFFE /* PerfilViewController.swift in Sources */,
+				E76BF7C124AEB66800D472EC /* InternoRespuestaViewController.swift in Sources */,
+				E79FFD02252121650029044B /* CustomRequerimientoResolverViewController.swift in Sources */,
+				E78E0C5F24A9604E007E5D4E /* ConsultaTableViewCell.swift in Sources */,
+				E72C88102429689000EE97A8 /* SQLDepartamento.swift in Sources */,
+				E726E47A243E826D00E7F8A3 /* FachadaIndependientesSQL.swift in Sources */,
+				E790C87C24C5F28A00C810A4 /* InformacionPacienteViewController.swift in Sources */,
+				E7BBC27324437E71009EFBF0 /* HistoriaClinicaViewController.swift in Sources */,
+				E785D0AF2467629100C9A098 /* Paciente.swift in Sources */,
+				E7385ED9246A229B0052113F /* SQLAseguradora.swift in Sources */,
+				E77B557A24E9E2AD00EF7955 /* TomaBiopsiaViewController.swift in Sources */,
+				E78FEBC2249EEE5100BC60E8 /* DaoAseguradora.swift in Sources */,
+				E74254CE24A1923500C8DEB1 /* SQLHelpDesk.swift in Sources */,
+				E76ACDC62468C714000ABF9F /* Constante.swift in Sources */,
+				E7F824DB24C7B91B00236C28 /* ImagenHistoriaClinicaViewController.swift in Sources */,
+				E78D2BD024BA7A1C003BEDA7 /* SQLControlMedico.swift in Sources */,
+				E75CA6492442B3EF00C3CFFE /* CreditosViewController.swift in Sources */,
+				E78FEBAD249EED1700BC60E8 /* DaoUsuario.swift in Sources */,
+				E7B427C824B7CCD3009B7C07 /* Lesion.swift in Sources */,
+				E79FFCFE2520F0430029044B /* CustomRequerimientoDescartarViewController.swift in Sources */,
+				E76D682324997BB2005F30EB /* MemoriaRegistroConsulta.swift in Sources */,
+				E77B557C24E9E67D00EF7955 /* SemiologiaViewController.swift in Sources */,
+				E78D2BCE24BA789E003BEDA7 /* Diagnostico.swift in Sources */,
+				E7757BCF24A2CF630011BBD5 /* MesaViewController.swift in Sources */,
+				E721293324B5296900371DA0 /* MemoriaHistoriaClinica.swift in Sources */,
+				E79FFD00252107AD0029044B /* HttpRequerimiento.swift in Sources */,
+				E78FEB9C249EED1700BC60E8 /* DaoPaciente.swift in Sources */,
+				E78E0C5524A8F3CA007E5D4E /* SQLParteCuerpo.swift in Sources */,
+				E76CC7A324C3CC240093C540 /* SQLExamenSolicitado.swift in Sources */,
+				E7777ED024A40E29004F6B58 /* HttpCreditos.swift in Sources */,
+				E7B427C724B7CCD3009B7C07 /* ImagenLesion.swift in Sources */,
+				E7245F0424565A4100CBF4F4 /* Validacion.swift in Sources */,
+				E78FEBAC249EED1700BC60E8 /* DaoInformacionPaciente.swift in Sources */,
+				E72A429D24BD207600A51F1D /* Especialista.swift in Sources */,
+				E7AAFD36244D1E070087FEAC /* AprendeViewController.swift in Sources */,
+				E74B436F245F9E2600608AD5 /* SQLUsuario.swift in Sources */,
+				E76ACDCC2468E544000ABF9F /* ConstanteValor.swift in Sources */,
+				E71EBED72522D0B700AA1860 /* CustomLongPress.swift in Sources */,
+				E78E0C5B24A9124B007E5D4E /* HttpConsultaMedica.swift in Sources */,
+				E77CD3A12523D318005AEA26 /* CustomCompartirViewController.swift in Sources */,
+				E7BB6F1A249EDB48008350E0 /* ConsultaMedica.swift in Sources */,
+				E785D0B52467668300C9A098 /* HttpPaciente.swift in Sources */,
+				E76BF7C324AEC91B00D472EC /* InternoHistorialViewController.swift in Sources */,
+				E78D2BD224BA7AAB003BEDA7 /* SQLDiagnostico.swift in Sources */,
+				E785D0B12467651400C9A098 /* SQLPaciente.swift in Sources */,
+				E74254D224A1940D00C8DEB1 /* HttpHelpDesk.swift in Sources */,
+				E76CC7A524C3CC7C0093C540 /* DaoExamenSolicitado.swift in Sources */,
+				E78FEBC4249EEE6600BC60E8 /* DaoCie10.swift in Sources */,
+				E7188C0E244694A600832EB6 /* WalletViewController.swift in Sources */,
+				E7693D02242822890087FB2A /* Conexion.swift in Sources */,
+				E7C7FF35241934DB00885189 /* ModeloBase.swift in Sources */,
+				E7E758E5245CCB4800AA903F /* Municipio.swift in Sources */,
+				E7757BD124A2E4D50011BBD5 /* ImagenDetalleViewController.swift in Sources */,
+				E7B427CF24B7CF94009B7C07 /* DaoLesion.swift in Sources */,
+				E7B427D224B8099E009B7C07 /* ImagenCollectionViewCell.swift in Sources */,
+				E749BB0C24591FDE002701B1 /* NetworkError.swift in Sources */,
+				E76CC7B124C3CF210093C540 /* DaoMipres.swift in Sources */,
+				E7310DD723F99D0700AE9CF1 /* LaunchViewController.swift in Sources */,
+				E74D6941253FB19100CFDD03 /* WebViewController.swift in Sources */,
+				E785D0B924676DE800C9A098 /* SQLInformacionPaciente.swift in Sources */,
+				E7E1B7092420269C0043BEE9 /* RegistroViewController.swift in Sources */,
+				E75C9C572481560F0056C9E1 /* RegistroPacienteViewController4Camara.swift in Sources */,
+				E7BBC27524438009009EFBF0 /* RegistroPacienteViewController1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7B47B2423F4C36300997278 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B47B2523F4C36300997278 /* Base */,
+				E75CA6442442AE8900C3CFFE /* es */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7B47B2923F4C36800997278 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B47B2A23F4C36800997278 /* Base */,
+				E75CA6452442AE8900C3CFFE /* es */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7B47B2D23F4C36800997278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7B47B2E23F4C36800997278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7B47B3023F4C36800997278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A4F9731F1098A6649269CD /* Pods-Telederma.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78NH58CS8Y;
+				INFOPLIST_FILE = Telederma/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gov.dermatologia.Telederma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E7B47B3123F4C36800997278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89FE90C8A2FC34D1F00289F /* Pods-Telederma.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78NH58CS8Y;
+				INFOPLIST_FILE = Telederma/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gov.dermatologia.Telederma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B47B1623F4C36300997278 /* Build configuration list for PBXProject "Telederma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B47B2D23F4C36800997278 /* Debug */,
+				E7B47B2E23F4C36800997278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B47B2F23F4C36800997278 /* Build configuration list for PBXNativeTarget "Telederma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B47B3023F4C36800997278 /* Debug */,
+				E7B47B3123F4C36800997278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7B47B1323F4C36300997278 /* Project object */;
+}

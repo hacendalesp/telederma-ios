@@ -1,0 +1,182 @@
+//
+//  SQLRespuestaEspecialista.swift
+//  Telederma
+//
+//  Created by Pedro Erazo Acosta on 29/03/20.
+//  Copyright © 2020 Pedro Erazo Acosta. All rights reserved.
+//
+
+import UIKit
+import SQLite
+
+class SQLRespuestaEspecialista: SQLBase {
+    
+    private var specialist_id: Expression<Int?>;
+    private var consultation_id: Expression<Int?>;
+    private var consultation_control_id: Expression<Int?>;
+    private var control_recommended: Expression<String?>;
+    private var case_analysis: Expression<String?>;
+    private var analysis_description: Expression<String?>;
+    private var hour: Expression<String?>;
+    
+    override init(db: Connection?) {
+        self.specialist_id = Expression<Int?>("specialist_id");
+        self.consultation_id = Expression<Int?>("consultation_id");
+        self.consultation_control_id = Expression<Int?>("consultation_control_id");
+        self.control_recommended = Expression<String?>("control_recommended");
+        self.case_analysis = Expression<String?>("case_analysis");
+        self.analysis_description = Expression<String?>("analysis_description");
+        self.hour = Expression<String?>("hour");
+        super.init(db: db);
+        self.tabla = Table("respuesta_especialista");
+    }
+    
+    /**
+     Método que permite crear la tabla en la base de datos de la conexión.
+     - Throws: Se debe manejar posibles errores asociados
+     */
+    func crearTabla () throws {
+        if let db = self.database {
+            try db.run(self.tabla!.create(ifNotExists: true) { t in
+                t.column(specialist_id)
+                t.column(consultation_id)
+                t.column(consultation_control_id)
+                t.column(control_recommended)
+                t.column(case_analysis)
+                t.column(analysis_description)
+                t.column(hour)
+                t.column(id, unique: true)
+                t.column(created_at)
+                t.column(updated_at)
+            })};
+    }
+    
+    /**
+     Método que permite registrar uno o muchos datos en la tabla.
+     - Parameter data: Corresponde a una lista con la información a ingresar.
+     - Returns: 0 cuando no se insertó ningún dato
+     - Returns: 1 cuando se insertaron todos los datos
+     - Returns: -1 cuando el ingreso fue incompleto
+     */
+    func insertarRegistros (data: [RespuestaEspecialista]) throws -> Int {
+        if let db = self.database {
+            if (data.count > 0) {
+                var contador = 0;
+                for item in data {
+                    let insertado = try db.run(self.tabla!.insert(
+                        id <- item.id,
+                        specialist_id <- item.specialist_id,
+                        consultation_id <- item.consultation_id,
+                        consultation_control_id <- item.consultation_control_id,
+                        control_recommended <- item.control_recommended,
+                        case_analysis <- item.case_analysis,
+                        analysis_description <- item.analysis_description,
+                        hour <- item.hour,
+                        created_at <- item.created_at,
+                        updated_at <- item.updated_at
+                    ))
+                    
+                    if (insertado > 0) {
+                        contador += 1;
+                    }
+                }
+                if (contador == data.count) {
+                    return 1;
+                } else {
+                    return -1;
+                }
+            }
+        }
+        return 0;
+    }
+    
+    /**
+     Método que permite actualizar la información de un registro específico.
+     - Parameter idRegistro: Corresponde al número entero que corresponda al campo id de la tabla. Con este dato se buscará y actualizará el registro.
+     - Returns: 0 cuando no se realizó el registro.
+     - Returns: 1 cuando se actualizó exitosamente.
+     */
+    func actualizarRegistro (idRegistro: Int, data: RespuestaEspecialista) throws -> Int{
+        if let db = self.database {
+            let actualizado = try db.run(self.tabla!.filter(id == idRegistro).update(
+                specialist_id <- data.specialist_id,
+                consultation_id <- data.consultation_id,
+                consultation_control_id <- data.consultation_control_id,
+                control_recommended <- data.control_recommended,
+                case_analysis <- data.case_analysis,
+                analysis_description <- data.analysis_description,
+                hour <- data.hour,
+                created_at <- data.created_at,
+                updated_at <- data.updated_at
+            ));
+            return actualizado;
+        }
+        return 0;
+    }
+    
+    /**
+     Método que permite obtener toda la información de la tabla.
+     - Returns: Retorna una lista de objetos RespuestaEspecialista
+     */
+    func seleccionarRegistrosTodo () throws -> [RespuestaEspecialista] {
+        var datos = [RespuestaEspecialista]();
+        if let db = self.database {
+            for item in try db.prepare(self.tabla!) {
+                let obj = RespuestaEspecialista();
+                obj.specialist_id = item[specialist_id];
+                obj.consultation_id = item[consultation_id];
+                obj.consultation_control_id = item[consultation_control_id];
+                obj.control_recommended = item[control_recommended];
+                obj.case_analysis = item[case_analysis];
+                obj.analysis_description = item[analysis_description];
+                obj.hour = item[hour];
+                obj.id = item[id];
+                obj.created_at = item[created_at];
+                obj.updated_at = item[updated_at];
+                
+                datos.append(obj);
+            }
+        }
+        return datos;
+    }
+    
+    /**
+     Método que permite obtener toda la información de un registro específico de la tabla.
+     - Parameter idRegistro: Corresponde al valor del campo id del registro que se desea obtener la información.
+     - Returns: Retorna un objeto RespuestaEspecialista
+     */
+    func seleccionarRegistrosPorId (idRegistro: Int) throws -> RespuestaEspecialista? {
+        var obj: RespuestaEspecialista? = nil;
+        if let db = self.database {
+            let query = self.tabla!.select(*).filter(id == idRegistro).limit(1);
+            if let item = try db.pluck(query){
+                obj = RespuestaEspecialista();
+                obj!.specialist_id = item[specialist_id];
+                obj!.consultation_id = item[consultation_id];
+                obj!.consultation_control_id = item[consultation_control_id];
+                obj!.control_recommended = item[control_recommended];
+                obj!.case_analysis = item[case_analysis];
+                obj!.analysis_description = item[analysis_description];
+                obj!.hour = item[hour];
+                obj!.id = item[id];
+                obj!.created_at = item[created_at];
+                obj!.updated_at = item[updated_at];
+            }
+        }
+        return obj;
+    }
+    
+    /**
+     Método permite eliminar un registro de la tabla.
+     - Parameter idRegistro: Corresponde al valor del campo id que se desea eliminar.
+     - Returns: 0 si no se eliminó.
+     - Returns: 1 si se eliminó exitosamente.
+     */
+    func eliminarRegistro (idRegistro: Int) throws -> Int {
+        if let db = self.database {
+            let eliminado = try db.run(self.tabla!.filter(id == idRegistro).delete());
+            return eliminado;
+        }
+        return 0;
+    }
+}
